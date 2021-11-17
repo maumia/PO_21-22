@@ -20,7 +20,7 @@ public class Date implements Serializable {
     }
 
     void addDate(int days) {
-        if (days > 0) {
+        if (days >= 0) {
             _days += days;
         }   
     }
