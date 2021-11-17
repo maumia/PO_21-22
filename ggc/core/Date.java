@@ -16,7 +16,7 @@ public class Date implements Serializable {
     }
 
     int getCurrentDate() {
-        return _days;
+        return this._days;
     }
 
     void addDate(int days) {
