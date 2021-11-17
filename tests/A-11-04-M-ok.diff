@@ -1,0 +1,59 @@
+*** tests/A-11-04-M-ok.out	2021-11-17 12:10:08.582594676 +0000
+--- tests/A-11-04-M-ok.outhyp	2021-11-17 12:10:55.173587207 +0000
+***************
+*** 42,49 ****
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: COMPRA|0|M1|GARRAFA|1000|70000|0
+! Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+  3 - Registar parceiro
+--- 42,48 ----
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+  3 - Registar parceiro
+***************
+*** 70,76 ****
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|70000|0|0
+  Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+--- 69,75 ----
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|0|0|0
+  Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+***************
+*** 96,104 ****
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|M1|70|1000
+  GARRAFA|S1|50|1000
+  GARRAFA|S1|80|1000
+  ROLHA|M1|20|500
+  VIDRO|M1|30|500
+  Gestão de Produtos
+--- 95,104 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|S1|50|1000
+  GARRAFA|S1|50|1000
+  GARRAFA|S1|80|1000
++ GARRAFA|S1|80|1000
+  ROLHA|M1|20|500
+  VIDRO|M1|30|500
+  Gestão de Produtos

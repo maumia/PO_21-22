@@ -1,0 +1,21 @@
+*** tests/A-12-03-M-ok.out	2021-11-17 12:10:08.582594676 +0000
+--- tests/A-12-03-M-ok.outhyp	2021-11-17 12:10:56.385547839 +0000
+***************
+*** 120,127 ****
+  8 - Menu de Consultas
+  9 - Ver Saldo Global
+  0 - Sair
+! Escolha uma opção: Saldo disponível: -60000
+! Saldo contabilístico: -60000
+  Menu Principal
+  1 - Abrir
+  2 - Guardar
+--- 120,127 ----
+  8 - Menu de Consultas
+  9 - Ver Saldo Global
+  0 - Sair
+! Escolha uma opção: Saldo disponível: 0
+! Saldo contabilístico: 0
+  Menu Principal
+  1 - Abrir
+  2 - Guardar

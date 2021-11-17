@@ -1,0 +1,51 @@
+*** tests/A-19-03-M-ok.out	2021-11-17 12:10:08.586594659 +0000
+--- tests/A-19-03-M-ok.outhyp	2021-11-17 12:11:01.585385200 +0000
+***************
+*** 55,67 ****
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: Identificador do produto: Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|10|500|ROLHA:1#VIDRO:2
+  ROLHA|2|50
+  SAL|100|500
+  VIDRO|1|0
+--- 55,68 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: Identificador do produto: VIDRO|M1|1|50
+! Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|10|500|nullROLHA:1#VIDRO:2
+  ROLHA|2|50
+  SAL|100|500
+  VIDRO|1|0
+***************
+*** 90,98 ****
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: VENDA|0|M1|VIDRO|30|30|30|2
+! VENDA|1|M1|VIDRO|20|20|20|2
+! Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+  3 - Registar parceiro
+--- 91,97 ----
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+  3 - Registar parceiro

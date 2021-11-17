@@ -1,0 +1,20 @@
+*** tests/A-17-02-M-ok.out	2021-11-17 12:10:08.586594659 +0000
+--- tests/A-17-02-M-ok.outhyp	2021-11-17 12:11:00.509418036 +0000
+***************
+*** 50,57 ****
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: COMPRA|0|M1|SAL|23|529|0
+! Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+  3 - Registar parceiro
+--- 50,56 ----
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+  3 - Registar parceiro

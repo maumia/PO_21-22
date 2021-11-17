@@ -1,0 +1,62 @@
+*** tests/A-12-09-M-ok.out	2021-11-17 12:10:08.582594676 +0000
+--- tests/A-12-09-M-ok.outhyp	2021-11-17 12:10:57.129523921 +0000
+***************
+*** 51,64 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador da transacção: DESAGREGAÇÃO|4|M1|GARRAFA|10|-20|0|0|VIDRO:10:30#ROLHA:10:20
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+--- 51,74 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Identificador da transacção: Visualizar: Operação inválida: A transacção '4' não existe.
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+***************
+*** 77,84 ****
+  8 - Menu de Consultas
+  9 - Ver Saldo Global
+  0 - Sair
+! Escolha uma opção: Saldo disponível: 20
+! Saldo contabilístico: 140
+  Menu Principal
+  1 - Abrir
+  2 - Guardar
+--- 87,94 ----
+  8 - Menu de Consultas
+  9 - Ver Saldo Global
+  0 - Sair
+! Escolha uma opção: Saldo disponível: 0
+! Saldo contabilístico: 0
+  Menu Principal
+  1 - Abrir
+  2 - Guardar

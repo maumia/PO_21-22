@@ -1,0 +1,103 @@
+*** tests/A-11-11-M-ok.out	2021-11-17 12:10:08.582594676 +0000
+--- tests/A-11-11-M-ok.outhyp	2021-11-17 12:10:56.041558921 +0000
+***************
+*** 77,85 ****
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|5000|0|0
+! M2|Figueiredo|Porto, Portugal|NORMAL|0|1000|0|0
+! S1|Toshiba|Tokyo, Japan|NORMAL|0|3000|0|0
+  Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+--- 77,85 ----
+  5 - Mostrar compras com parceiro
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+! Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|0|0|0
+! M2|Figueiredo|Porto, Portugal|NORMAL|0|0|0|0
+! S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
+  Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+***************
+*** 105,129 ****
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|80|2100|VIDRO:1#ROLHA:1
+! ROLHA|100|620
+! VIDRO|100|560
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|M1|40|50
+! GARRAFA|S1|20|50
+  GARRAFA|S1|50|1000
+  GARRAFA|S1|80|1000
+- ROLHA|M1|10|100
+  ROLHA|M1|20|500
+! ROLHA|S1|100|20
+  VIDRO|M1|30|500
+- VIDRO|M1|40|50
+- VIDRO|M2|100|10
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+--- 105,137 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
+! GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
+! GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
+! ROLHA|20|500
+! ROLHA|20|500
+! ROLHA|20|500
+! VIDRO|30|500
+! VIDRO|30|500
+! VIDRO|30|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|S1|50|1000
+  GARRAFA|S1|50|1000
++ GARRAFA|S1|50|1000
++ GARRAFA|S1|80|1000
++ GARRAFA|S1|80|1000
+  GARRAFA|S1|80|1000
+  ROLHA|M1|20|500
+! ROLHA|M1|20|500
+! ROLHA|M1|20|500
+! VIDRO|M1|30|500
+! VIDRO|M1|30|500
+  VIDRO|M1|30|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+***************
+*** 131,138 ****
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+  Escolha uma opção: Identificador do produto: VIDRO|M1|30|500
+! VIDRO|M1|40|50
+! VIDRO|M2|100|10
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+--- 139,146 ----
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+  Escolha uma opção: Identificador do produto: VIDRO|M1|30|500
+! VIDRO|M1|30|500
+! VIDRO|M1|30|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes

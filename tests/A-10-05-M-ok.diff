@@ -1,0 +1,61 @@
+*** tests/A-10-05-M-ok.out	2021-11-17 12:10:08.582594676 +0000
+--- tests/A-10-05-M-ok.outhyp	2021-11-17 12:10:52.309682609 +0000
+***************
+*** 43,49 ****
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+  Escolha uma opção: Identificador do parceiro: S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
+- BARGAIN|SAL|50
+  Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+--- 43,48 ----
+***************
+*** 53,59 ****
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+  Escolha uma opção: Identificador do parceiro: M2|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
+- BARGAIN|SAL|50
+  Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+--- 52,57 ----
+***************
+*** 106,112 ****
+  0 - Sair
+  Escolha uma opção: HIDROGENIO|200|5000
+  ROLHA|2000|500
+! SAL|100|513
+  VIDRO|1000|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+--- 104,112 ----
+  0 - Sair
+  Escolha uma opção: HIDROGENIO|200|5000
+  ROLHA|2000|500
+! SAL|100|500
+! SAL|100|500
+! SAL|100|500
+  VIDRO|1000|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+***************
+*** 134,140 ****
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+  Escolha uma opção: Identificador do parceiro: M2|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
+- BARGAIN|SAL|2
+  Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+--- 134,139 ----
+***************
+*** 144,150 ****
+  6 - Mostrar vendas (e desagregações) com parceiro
+  0 - Sair
+  Escolha uma opção: Identificador do parceiro: S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
+- BARGAIN|SAL|2
+  Gestão de Parceiros
+  1 - Mostrar parceiro
+  2 - Mostrar parceiros
+--- 143,148 ----

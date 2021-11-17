@@ -1,0 +1,128 @@
+*** tests/A-15-09-M-ok.out	2021-11-17 12:10:08.586594659 +0000
+--- tests/A-15-09-M-ok.outhyp	2021-11-17 12:10:59.521448554 +0000
+***************
+*** 16,29 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador da transacção: DESAGREGAÇÃO|0|R1|GARRAFA|9|362|362|0|ROLHA:9:18#SAL:45:720#VIDRO:90:900
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+--- 16,39 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Identificador da transacção: Visualizar: Operação inválida: A transacção '0' não existe.
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+***************
+*** 48,76 ****
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|400|4|ROLHA:1#SAL:5#VIDRO:10
+  HIDROGENIO|200|5000
+! ROLHA|20|1009
+! SAL|26|1045
+! VIDRO|30|1590
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|M1|400|4
+  HIDROGENIO|S1|200|5000
+- ROLHA|R1|2|9
+  ROLHA|R1|2|500
+  ROLHA|R1|20|500
+- SAL|R1|16|45
+  SAL|S1|16|500
+  SAL|S1|26|500
+  VIDRO|M1|10|500
+  VIDRO|M1|20|500
+  VIDRO|M1|30|500
+- VIDRO|R1|10|90
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+--- 58,85 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|400|13|nullROLHA:1#SAL:5#VIDRO:10
+  HIDROGENIO|200|5000
+! ROLHA|20|1000
+! SAL|26|1000
+! VIDRO|30|1500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|M1|200|5
+! GARRAFA|M1|400|5
+! GARRAFA|S1|200|3
+  HIDROGENIO|S1|200|5000
+  ROLHA|R1|2|500
+  ROLHA|R1|20|500
+  SAL|S1|16|500
+  SAL|S1|26|500
+  VIDRO|M1|10|500
+  VIDRO|M1|20|500
+  VIDRO|M1|30|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+***************
+*** 94,104 ****
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|400|4|ROLHA:1#SAL:5#VIDRO:10
+  HIDROGENIO|200|5000
+! ROLHA|20|1009
+! SAL|26|1045
+! VIDRO|30|1590
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+--- 103,113 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|400|13|nullROLHA:1#SAL:5#VIDRO:10
+  HIDROGENIO|200|5000
+! ROLHA|20|1000
+! SAL|26|1000
+! VIDRO|30|1500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
