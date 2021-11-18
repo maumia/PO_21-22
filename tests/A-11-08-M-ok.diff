@@ -1,192 +1,80 @@
 *** tests/A-11-08-M-ok.out	2021-11-17 12:10:08.582594676 +0000
---- tests/A-11-08-M-ok.outhyp	2021-11-18 17:13:31.302746946 +0000
+--- tests/A-11-08-M-ok.outhyp	2021-11-18 17:42:28.165240524 +0000
 ***************
-*** 16,196 ****
+*** 23,29 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: COMPRA|0|M1|ROLHA|100|10000|0
-! Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
-! Escolha uma opção: Menu Principal
-! 1 - Abrir
-! 2 - Guardar
-! 3 - Mostrar Data
-! 4 - Avançar Data
-! 5 - Gestão de Produtos
-! 6 - Gestão de Parceiros
-! 7 - Gestão de Transacções
-! 8 - Menu de Consultas
-! 9 - Ver Saldo Global
-! 0 - Sair
-! Escolha uma opção: Gestão de Produtos
-! 1 - Visualizar todos os produtos
-! 2 - Visualizar todos os lotes
-! 3 - Visualizar lotes fornecidos por parceiro
-! 4 - Visualizar lotes de um dado produto
-! 0 - Sair
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+--- 23,29 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador da transacção: COMPRA|0|M1|ROLHA|100|100|0
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+***************
+*** 48,55 ****
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
 ! Escolha uma opção: GARRAFA|80|2000|VIDRO:1#ROLHA:1
 ! ROLHA|100|2100
-! VIDRO|90|500
-! Gestão de Produtos
-! 1 - Visualizar todos os produtos
-! 2 - Visualizar todos os lotes
-! 3 - Visualizar lotes fornecidos por parceiro
-! 4 - Visualizar lotes de um dado produto
-! 0 - Sair
-! Escolha uma opção: Menu Principal
-! 1 - Abrir
-! 2 - Guardar
-! 3 - Mostrar Data
-! 4 - Avançar Data
-! 5 - Gestão de Produtos
-! 6 - Gestão de Parceiros
-! 7 - Gestão de Transacções
-! 8 - Menu de Consultas
-! 9 - Ver Saldo Global
-! 0 - Sair
-! Escolha uma opção: Gestão de Parceiros
-! 1 - Mostrar parceiro
-! 2 - Mostrar parceiros
-! 3 - Registar parceiro
-! 4 - Activa/desactivar notificações de um produto
-! 5 - Mostrar compras com parceiro
-! 6 - Mostrar vendas (e desagregações) com parceiro
-! 0 - Sair
-! Escolha uma opção: Identificador do parceiro: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|10000|0|0
-! Gestão de Parceiros
-! 1 - Mostrar parceiro
-! 2 - Mostrar parceiros
-! 3 - Registar parceiro
-! 4 - Activa/desactivar notificações de um produto
-! 5 - Mostrar compras com parceiro
-! 6 - Mostrar vendas (e desagregações) com parceiro
-! 0 - Sair
-! Escolha uma opção: Menu Principal
-! 1 - Abrir
-! 2 - Guardar
-! 3 - Mostrar Data
-! 4 - Avançar Data
-! 5 - Gestão de Produtos
-! 6 - Gestão de Parceiros
-! 7 - Gestão de Transacções
-! 8 - Menu de Consultas
-! 9 - Ver Saldo Global
-! 0 - Sair
-! Escolha uma opção: Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
-! Escolha uma opção: Identificador da transacção: COMPRA|1|M1|GARRAFA|100|30000|0
-! Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
-! Escolha uma opção: Menu Principal
-! 1 - Abrir
-! 2 - Guardar
-! 3 - Mostrar Data
-! 4 - Avançar Data
-! 5 - Gestão de Produtos
-! 6 - Gestão de Parceiros
-! 7 - Gestão de Transacções
-! 8 - Menu de Consultas
-! 9 - Ver Saldo Global
-! 0 - Sair
-! Escolha uma opção: Gestão de Parceiros
-! 1 - Mostrar parceiro
-! 2 - Mostrar parceiros
-! 3 - Registar parceiro
-! 4 - Activa/desactivar notificações de um produto
-! 5 - Mostrar compras com parceiro
-! 6 - Mostrar vendas (e desagregações) com parceiro
-! 0 - Sair
-! Escolha uma opção: Identificador do parceiro: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|40000|0|0
-! Gestão de Parceiros
-! 1 - Mostrar parceiro
-! 2 - Mostrar parceiros
-! 3 - Registar parceiro
-! 4 - Activa/desactivar notificações de um produto
-! 5 - Mostrar compras com parceiro
-! 6 - Mostrar vendas (e desagregações) com parceiro
-! 0 - Sair
-! Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|40000|0|0
-! S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
-! Gestão de Parceiros
-! 1 - Mostrar parceiro
-! 2 - Mostrar parceiros
-! 3 - Registar parceiro
-! 4 - Activa/desactivar notificações de um produto
-! 5 - Mostrar compras com parceiro
-! 6 - Mostrar vendas (e desagregações) com parceiro
-! 0 - Sair
-! Escolha uma opção: Menu Principal
-! 1 - Abrir
-! 2 - Guardar
-! 3 - Mostrar Data
-! 4 - Avançar Data
-! 5 - Gestão de Produtos
-! 6 - Gestão de Parceiros
-! 7 - Gestão de Transacções
-! 8 - Menu de Consultas
-! 9 - Ver Saldo Global
-! 0 - Sair
-! Escolha uma opção: Gestão de Produtos
-! 1 - Visualizar todos os produtos
-! 2 - Visualizar todos os lotes
-! 3 - Visualizar lotes fornecidos por parceiro
-! 4 - Visualizar lotes de um dado produto
-! 0 - Sair
-! Escolha uma opção: GARRAFA|300|2100|VIDRO:1#ROLHA:1
-! ROLHA|100|2100
-! VIDRO|90|500
-! Gestão de Produtos
-! 1 - Visualizar todos os produtos
-! 2 - Visualizar todos os lotes
-! 3 - Visualizar lotes fornecidos por parceiro
-! 4 - Visualizar lotes de um dado produto
-! 0 - Sair
-! Escolha uma opção: Menu Principal
-! 1 - Abrir
-! 2 - Guardar
-! 3 - Mostrar Data
-! 4 - Avançar Data
-! 5 - Gestão de Produtos
-! 6 - Gestão de Parceiros
-! 7 - Gestão de Transacções
-! 8 - Menu de Consultas
-! 9 - Ver Saldo Global
-! 0 - Sair
-! Escolha uma opção: 
-\ No newline at end of file
---- 16,19 ----
+  VIDRO|90|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+--- 48,57 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
+! ROLHA|50|2000
+! ROLHA|50|2000
+! ROLHA|100|100
+  VIDRO|90|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+***************
+*** 110,116 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: 
-\ No newline at end of file
+! Escolha uma opção: Identificador da transacção: COMPRA|1|M1|GARRAFA|100|30000|0
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+--- 112,118 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador da transacção: COMPRA|1|M1|GARRAFA|100|300|0
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+***************
+*** 173,180 ****
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|300|2100|VIDRO:1#ROLHA:1
+! ROLHA|100|2100
+  VIDRO|90|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+--- 175,186 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
+! GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
+! GARRAFA|300|100
+! ROLHA|50|2000
+! ROLHA|50|2000
+! ROLHA|100|100
+  VIDRO|90|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
