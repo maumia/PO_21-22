@@ -66,6 +66,9 @@ public abstract class Product implements Serializable{
     void setStock(int stock) {
         _stock = stock;
     }
+    void addStock(int amount){
+        _stock += amount;
+    }
 
     Collection<Batch> getBatches() {
         return _batches;
