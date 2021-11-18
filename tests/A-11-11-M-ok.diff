@@ -1,5 +1,5 @@
 *** tests/A-11-11-M-ok.out	2021-10-26 19:36:30.487098000 +0100
---- tests/A-11-11-M-ok.outhyp	2021-11-18 19:56:52.479893489 +0000
+--- tests/A-11-11-M-ok.outhyp	2021-11-18 20:15:07.910225339 +0000
 ***************
 *** 105,129 ****
   3 - Visualizar lotes fornecidos por parceiro
@@ -31,9 +31,9 @@
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
-! Escolha uma opção: GARRAFA|80|8000|nullVIDRO:1#ROLHA:1
-! ROLHA|100|2000
-! VIDRO|100|2000
+! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
+! ROLHA|100|500
+! VIDRO|100|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
