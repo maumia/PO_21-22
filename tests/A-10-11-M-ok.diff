@@ -1,28 +1,5 @@
 *** tests/A-10-11-M-ok.out	2021-11-05 13:01:33.224701000 +0000
---- tests/A-10-11-M-ok.outhyp	2021-11-18 20:36:37.309708605 +0000
-***************
-*** 40,49 ****
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: HIDROGENIO|200|5000
-! ROLHA|2000|500
-! SAL|10|0
-! VIDRO|1000|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
---- 40,49 ----
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: HIDROGENIO|200|10000
-! ROLHA|2000|1000
-! SAL|10|5
-! VIDRO|1000|1000
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
+--- tests/A-10-11-M-ok.outhyp	2021-11-18 20:39:59.535701612 +0000
 ***************
 *** 106,112 ****
   6 - Mostrar vendas (e desagregações) com parceiro

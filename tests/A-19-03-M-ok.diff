@@ -1,25 +1,7 @@
 *** tests/A-19-03-M-ok.out	2021-11-05 10:16:36.233758000 +0000
---- tests/A-19-03-M-ok.outhyp	2021-11-18 20:36:46.313611872 +0000
+--- tests/A-19-03-M-ok.outhyp	2021-11-18 20:40:11.131595738 +0000
 ***************
-*** 23,30 ****
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Registar venda: Operação inválida: Produto 'VIDRO': pedido=21, existências=20
-! Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
---- 23,29 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-***************
-*** 55,70 ****
+*** 55,67 ****
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
@@ -30,18 +12,14 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|10|500|ROLHA:1#VIDRO:2
-! ROLHA|2|50
-! SAL|100|500
-! VIDRO|1|0
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
---- 54,71 ----
+  ROLHA|2|50
+  SAL|100|500
+  VIDRO|1|0
+--- 55,68 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: Identificador do produto: VIDRO|M1|1|50
-! VIDRO|M1|1|50
 ! Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
@@ -49,12 +27,9 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|10|500|nullROLHA:1#VIDRO:2
-! ROLHA|2|100
-! SAL|100|1000
-! VIDRO|1|29
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
+  ROLHA|2|50
+  SAL|100|500
+  VIDRO|1|0
 ***************
 *** 90,98 ****
   5 - Mostrar compras com parceiro

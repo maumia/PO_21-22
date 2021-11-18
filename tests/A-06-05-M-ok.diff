@@ -1,17 +1,7 @@
 *** tests/A-06-05-M-ok.out	2021-10-25 23:05:05.221882000 +0100
---- tests/A-06-05-M-ok.outhyp	2021-11-18 20:36:36.017722547 +0000
+--- tests/A-06-05-M-ok.outhyp	2021-11-18 20:39:58.119714600 +0000
 ***************
-*** 26,48 ****
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: HIDROGENIO|2|5000
-! ROLHA|2|500
-! SAL|1|0
-! VIDRO|1|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
+*** 36,42 ****
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
@@ -19,36 +9,12 @@
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
   3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-  Escolha uma opção: Identificador do produto: ROLHA|M1|2|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
---- 26,51 ----
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: HIDROGENIO|2|10000
-! ROLHA|2|1000
-! SAL|1|10
-! VIDRO|1|1000
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
+--- 36,43 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: Identificador do produto: SAL|S1|1|10
-! SAL|S1|1|10
 ! Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
   3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-  Escolha uma opção: Identificador do produto: ROLHA|M1|2|500
-+ ROLHA|M1|2|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes

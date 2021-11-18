@@ -1,5 +1,5 @@
 *** tests/A-11-06-M-ok.out	2021-10-21 22:48:29.937959000 +0100
---- tests/A-11-06-M-ok.outhyp	2021-11-18 20:36:39.973679903 +0000
+--- tests/A-11-06-M-ok.outhyp	2021-11-18 20:40:02.571673810 +0000
 ***************
 *** 16,29 ****
   4 - Registar compra
@@ -32,23 +32,6 @@
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
-***************
-*** 48,54 ****
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: papel|20|10
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
---- 49,55 ----
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: papel|20|40
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
 ***************
 *** 74,80 ****
   5 - Mostrar compras com parceiro

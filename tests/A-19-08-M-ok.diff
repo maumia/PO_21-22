@@ -1,5 +1,5 @@
 *** tests/A-19-08-M-ok.out	2021-11-06 08:31:15.275004000 +0000
---- tests/A-19-08-M-ok.outhyp	2021-11-18 20:36:46.961604940 +0000
+--- tests/A-19-08-M-ok.outhyp	2021-11-18 20:40:11.871589010 +0000
 ***************
 *** 16,29 ****
   4 - Registar compra
@@ -44,19 +44,15 @@
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
---- 49,64 ----
+--- 49,60 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: CORTIÇA|M1|1|1500
-! CORTIÇA|M1|1|1500
 ! GARRAFA|S1|10|2
 ! PLASTICO|M1|1|1000
-! PLASTICO|M1|1|1000
 ! ROLHA|M1|2|2
-! SAL|S1|100|500
   SAL|S1|100|500
-! VIDRO|M1|1|200
 ! VIDRO|M1|1|200
   Gestão de Produtos
   1 - Visualizar todos os produtos

@@ -60,12 +60,8 @@ Escolha uma opção: Gestão de Produtos
 0 - Sair
 Escolha uma opção: GARRAFA|S1|100|15
 HIDROGENIO|S1|200|5000
-HIDROGENIO|S1|200|5000
-ROLHA|R1|2|500
 ROLHA|R1|2|500
 SAL|S1|16|500
-SAL|S1|16|500
-VIDRO|M1|10|500
 VIDRO|M1|10|500
 Gestão de Produtos
 1 - Visualizar todos os produtos
@@ -75,12 +71,8 @@ Gestão de Produtos
 0 - Sair
 Escolha uma opção: GARRAFA|S1|100|15
 HIDROGENIO|S1|200|5000
-HIDROGENIO|S1|200|5000
-ROLHA|R1|2|500
 ROLHA|R1|2|500
 SAL|S1|16|500
-SAL|S1|16|500
-VIDRO|M1|10|500
 VIDRO|M1|10|500
 Gestão de Produtos
 1 - Visualizar todos os produtos
@@ -89,10 +81,10 @@ Gestão de Produtos
 4 - Visualizar lotes de um dado produto
 0 - Sair
 Escolha uma opção: GARRAFA|100|15|nullROLHA:1#SAL:5#VIDRO:10
-HIDROGENIO|200|10000
-ROLHA|2|1000
-SAL|16|1000
-VIDRO|10|1000
+HIDROGENIO|200|5000
+ROLHA|2|500
+SAL|16|500
+VIDRO|10|500
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes

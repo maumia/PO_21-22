@@ -89,8 +89,8 @@ Escolha uma opção: Gestão de Produtos
 3 - Visualizar lotes fornecidos por parceiro
 4 - Visualizar lotes de um dado produto
 0 - Sair
-Escolha uma opção: NOVO|25|160
-ROLHA|20|1000
+Escolha uma opção: NOVO|25|40
+ROLHA|20|500
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes

@@ -1,40 +1,12 @@
 *** tests/A-13-02-M-ok.out	2021-10-28 10:54:11.587473000 +0100
---- tests/A-13-02-M-ok.outhyp	2021-11-18 20:36:42.009658012 +0000
+--- tests/A-13-02-M-ok.outhyp	2021-11-18 20:40:05.851643839 +0000
 ***************
-*** 26,35 ****
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: HIDROGENIO|2|5000
-! ROLHA|2|500
-! SAL|1|0
-! VIDRO|1|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
---- 26,35 ----
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: HIDROGENIO|2|10000
-! ROLHA|2|1000
-! SAL|1|10
-! VIDRO|1|1000
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
-***************
-*** 52,58 ****
---- 52,63 ----
-  2 - Facturas pagas por parceiro
+*** 53,58 ****
+--- 53,59 ----
   0 - Sair
   Escolha uma opção: Preço: HIDROGENIO|S1|2|5000
-+ HIDROGENIO|S1|2|5000
   ROLHA|M1|2|500
-+ ROLHA|M1|2|500
 + SAL|S1|1|10
-+ SAL|S1|1|10
-+ VIDRO|M1|1|500
   VIDRO|M1|1|500
   Consultas
   1 - Produtos com Preço Abaixo de Limite

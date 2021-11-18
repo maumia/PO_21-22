@@ -1,5 +1,23 @@
 *** tests/A-10-18-M-ok.out	2021-11-05 13:01:35.460439000 +0000
---- tests/A-10-18-M-ok.outhyp	2021-11-18 20:36:38.725693341 +0000
+--- tests/A-10-18-M-ok.outhyp	2021-11-18 20:40:00.899689113 +0000
+***************
+*** 79,85 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+--- 79,86 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Registar venda: Operação inválida: Produto 'SAL': pedido=10, existências=0
+! Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
 ***************
 *** 113,120 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -10,7 +28,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 113,118 ----
+--- 114,119 ----
 ***************
 *** 124,131 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -21,7 +39,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 122,127 ----
+--- 123,128 ----
 ***************
 *** 135,141 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -31,4 +49,4 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 131,136 ----
+--- 132,137 ----

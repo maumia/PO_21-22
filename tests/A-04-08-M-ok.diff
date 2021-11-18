@@ -1,39 +1,21 @@
 *** tests/A-04-08-M-ok.out	2021-10-24 17:46:04.420193000 +0100
---- tests/A-04-08-M-ok.outhyp	2021-11-18 20:36:34.581738065 +0000
+--- tests/A-04-08-M-ok.outhyp	2021-11-18 20:39:56.579728742 +0000
 ***************
-*** 27,33 ****
---- 27,38 ----
-  4 - Visualizar lotes de um dado produto
+*** 28,33 ****
+--- 28,34 ----
   0 - Sair
   Escolha uma opção: HIDROGENIO|S1|2|5000
-+ HIDROGENIO|S1|2|5000
   ROLHA|M1|2|500
-+ ROLHA|M1|2|500
 + SAL|S1|1|10
-+ SAL|S1|1|10
-+ VIDRO|M1|1|500
-  VIDRO|M1|1|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-***************
-*** 36,41 ****
---- 41,48 ----
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-  Escolha uma opção: Identificador do parceiro: ROLHA|M1|2|500
-+ ROLHA|M1|2|500
-+ VIDRO|M1|1|500
   VIDRO|M1|1|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
 ***************
 *** 44,49 ****
---- 51,59 ----
+--- 45,51 ----
   4 - Visualizar lotes de um dado produto
   0 - Sair
   Escolha uma opção: Identificador do parceiro: HIDROGENIO|S1|2|5000
-+ HIDROGENIO|S1|2|5000
-+ SAL|S1|1|10
 + SAL|S1|1|10
   Gestão de Produtos
   1 - Visualizar todos os produtos

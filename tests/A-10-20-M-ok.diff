@@ -1,28 +1,40 @@
 *** tests/A-10-20-M-ok.out	2021-11-05 13:01:36.152472000 +0000
---- tests/A-10-20-M-ok.outhyp	2021-11-18 20:36:39.017690195 +0000
+--- tests/A-10-20-M-ok.outhyp	2021-11-18 20:40:01.255685853 +0000
 ***************
-*** 51,60 ****
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
+*** 53,59 ****
   0 - Sair
-! Escolha uma opção: HIDROGENIO|200|5000
-! ROLHA|2000|500
+  Escolha uma opção: HIDROGENIO|200|5000
+  ROLHA|2000|500
 ! SAL|10|10
-! VIDRO|1000|500
+  VIDRO|1000|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
---- 51,60 ----
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
+--- 53,59 ----
   0 - Sair
-! Escolha uma opção: HIDROGENIO|200|10000
-! ROLHA|2000|1000
-! SAL|10|40
-! VIDRO|1000|1000
+  Escolha uma opção: HIDROGENIO|200|5000
+  ROLHA|2000|500
+! SAL|10|0
+  VIDRO|1000|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
+***************
+*** 139,145 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+--- 139,146 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Registar venda: Operação inválida: Produto 'SAL': pedido=10, existências=0
+! Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
 ***************
 *** 180,189 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -35,7 +47,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 180,185 ----
+--- 181,186 ----
 ***************
 *** 193,202 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -48,7 +60,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 189,194 ----
+--- 190,195 ----
 ***************
 *** 206,213 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -59,7 +71,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 198,203 ----
+--- 199,204 ----
 ***************
 *** 217,224 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -70,4 +82,4 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 207,212 ----
+--- 208,213 ----

@@ -1,5 +1,5 @@
 *** tests/A-16-05-M-ok.out	2021-11-01 17:47:01.900465000 +0000
---- tests/A-16-05-M-ok.outhyp	2021-11-18 20:36:44.889627118 +0000
+--- tests/A-16-05-M-ok.outhyp	2021-11-18 20:40:09.355611897 +0000
 ***************
 *** 16,36 ****
   4 - Registar compra
@@ -163,9 +163,9 @@
 ! 0 - Sair
 ! Escolha uma opção: GARRAFA|55|100|nullROLHA:1#VIDRO:10
 ! GARRAFA2|50|100|nullROLHA:1#VIDRO:10
-! ROLHA|2|1000
-! SAL|5|1000
-! VIDRO|5|1000
+! ROLHA|2|500
+! SAL|5|500
+! VIDRO|5|500
 ! Gestão de Produtos
 ! 1 - Visualizar todos os produtos
 ! 2 - Visualizar todos os lotes
@@ -174,9 +174,9 @@
 ! 0 - Sair
 ! Escolha uma opção: GARRAFA|55|100|nullROLHA:1#VIDRO:10
 ! GARRAFA2|50|100|nullROLHA:1#VIDRO:10
-! ROLHA|2|1000
-! SAL|5|1000
-! VIDRO|5|1000
+! ROLHA|2|500
+! SAL|5|500
+! VIDRO|5|500
 ! Gestão de Produtos
 ! 1 - Visualizar todos os produtos
 ! 2 - Visualizar todos os lotes
