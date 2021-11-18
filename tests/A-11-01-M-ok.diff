@@ -1,5 +1,5 @@
 *** tests/A-11-01-M-ok.out	2021-10-26 19:22:39.869774000 +0100
---- tests/A-11-01-M-ok.outhyp	2021-11-18 20:40:01.439684169 +0000
+--- tests/A-11-01-M-ok.outhyp	2021-11-18 20:46:57.701593213 +0000
 ***************
 *** 61,67 ****
   4 - Registar compra
@@ -47,7 +47,7 @@
   0 - Sair
   Escolha uma opção: HIDROGENIO|2|5000
   ROLHA|2|500
-! SAL|100|0
+! SAL|100|20
   VIDRO|1|500
   Gestão de Produtos
   1 - Visualizar todos os produtos

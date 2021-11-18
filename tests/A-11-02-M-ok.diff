@@ -1,5 +1,5 @@
 *** tests/A-11-02-M-ok.out	2021-10-21 16:21:02.502068000 +0100
---- tests/A-11-02-M-ok.outhyp	2021-11-18 20:40:01.575682924 +0000
+--- tests/A-11-02-M-ok.outhyp	2021-11-18 20:46:57.849585376 +0000
 ***************
 *** 41,47 ****
   4 - Visualizar lotes de um dado produto
@@ -13,7 +13,7 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
   Escolha uma opção: HIDROGENIO|200|5000
-! ROLHA|30|2000
+! ROLHA|30|4200
   SAL|1000|500
   VIDRO|1000|500
   Gestão de Produtos

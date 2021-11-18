@@ -1,5 +1,5 @@
 *** tests/A-10-20-M-ok.out	2021-11-05 13:01:36.152472000 +0000
---- tests/A-10-20-M-ok.outhyp	2021-11-18 20:40:01.255685853 +0000
+--- tests/A-10-20-M-ok.outhyp	2021-11-18 20:46:57.465605709 +0000
 ***************
 *** 53,59 ****
   0 - Sair
@@ -13,28 +13,10 @@
   0 - Sair
   Escolha uma opção: HIDROGENIO|200|5000
   ROLHA|2000|500
-! SAL|10|0
+! SAL|10|20
   VIDRO|1000|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
-***************
-*** 139,145 ****
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
---- 139,146 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Registar venda: Operação inválida: Produto 'SAL': pedido=10, existências=0
-! Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
 ***************
 *** 180,189 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -47,7 +29,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 181,186 ----
+--- 180,185 ----
 ***************
 *** 193,202 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -60,7 +42,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 190,195 ----
+--- 189,194 ----
 ***************
 *** 206,213 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -71,7 +53,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 199,204 ----
+--- 198,203 ----
 ***************
 *** 217,224 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -82,4 +64,4 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 208,213 ----
+--- 207,212 ----

@@ -105,9 +105,9 @@ Escolha uma opção: Gestão de Produtos
 3 - Visualizar lotes fornecidos por parceiro
 4 - Visualizar lotes de um dado produto
 0 - Sair
-Escolha uma opção: GARRAFA|80|8000|nullVIDRO:1#ROLHA:1
-ROLHA|100|2000
-VIDRO|100|2000
+Escolha uma opção: GARRAFA|80|32500|nullVIDRO:1#ROLHA:1
+ROLHA|100|8840
+VIDRO|100|8180
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes

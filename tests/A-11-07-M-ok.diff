@@ -1,5 +1,5 @@
 *** tests/A-11-07-M-ok.out	2021-10-22 08:55:30.342525000 +0100
---- tests/A-11-07-M-ok.outhyp	2021-11-18 20:40:02.823671504 +0000
+--- tests/A-11-07-M-ok.outhyp	2021-11-18 20:46:58.453553430 +0000
 ***************
 *** 16,30 ****
   4 - Registar compra
@@ -70,7 +70,7 @@
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
-! Escolha uma opção: NOVO|25|40
+! Escolha uma opção: NOVO|25|200
 ! ROLHA|20|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
