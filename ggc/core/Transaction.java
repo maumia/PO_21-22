@@ -52,6 +52,6 @@ public abstract class Transaction implements Serializable {
         }
         @Override
         public String toString(){
-                return getTransactionID() + "|" + getPartner().getPartnerId() + "|" + getProduct().getProductId() + "|" + getQuantity() + "|" + Math.round(getBaseValue());
+                return getTransactionID() + "|" + getPartner().getPartnerId() + "|" + getProduct().getProductId() + "|" + getQuantity() + "|" + Math.round(getBaseValue()*_quantity);
         }
 }
