@@ -242,7 +242,7 @@ public class Warehouse implements Serializable {
   protected void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount) {
     Product p = new SimpleProduct(productId, partnerId, price);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
-    
+    /*
     for(Product product : _products){
       if ((p.getProductId().equals(product.getProductId())) == true){
         if(p.getPrice()>product.getPrice()){
@@ -253,8 +253,9 @@ public class Warehouse implements Serializable {
           product.addStock(amount);
       }
       else
+      */
       _products.add(p);
-    }
+    
     
     p.addBatch(b);
     Acquisition acquisition = new Acquisition(_transactionId, _date, price, amount, getProduct(productId), getPartner(partnerId));
