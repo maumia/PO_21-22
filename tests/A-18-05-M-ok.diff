@@ -1,5 +1,45 @@
 *** tests/A-18-05-M-ok.out	2021-11-17 12:10:08.586594659 +0000
---- tests/A-18-05-M-ok.outhyp	2021-11-18 16:09:37.173403915 +0000
+--- tests/A-18-05-M-ok.outhyp	2021-11-18 16:51:04.885384695 +0000
+***************
+*** 44,57 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+--- 44,66 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Registar receita? Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
 ***************
 *** 85,94 ****
   5 - Mostrar compras com parceiro
@@ -12,7 +52,7 @@
   1 - Mostrar parceiro
   2 - Mostrar parceiros
   3 - Registar parceiro
---- 85,91 ----
+--- 94,100 ----
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
@@ -31,7 +71,7 @@
   1 - Mostrar parceiro
   2 - Mostrar parceiros
   3 - Registar parceiro
---- 93,99 ----
+--- 102,108 ----
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair

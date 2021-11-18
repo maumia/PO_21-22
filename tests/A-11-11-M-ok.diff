@@ -1,5 +1,125 @@
 *** tests/A-11-11-M-ok.out	2021-11-17 12:10:08.582594676 +0000
---- tests/A-11-11-M-ok.outhyp	2021-11-18 16:09:31.569410244 +0000
+--- tests/A-11-11-M-ok.outhyp	2021-11-18 16:50:59.897460208 +0000
+***************
+*** 16,57 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+--- 16,90 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Registar receita? Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Registar receita? Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Registar receita? Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
 ***************
 *** 77,85 ****
   5 - Mostrar compras com parceiro
@@ -11,7 +131,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 77,85 ----
+--- 110,118 ----
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
@@ -37,29 +157,23 @@
   0 - Sair
 ! Escolha uma opção: GARRAFA|M1|40|50
 ! GARRAFA|S1|20|50
-  GARRAFA|S1|50|1000
+! GARRAFA|S1|50|1000
   GARRAFA|S1|80|1000
 - ROLHA|M1|10|100
   ROLHA|M1|20|500
-! ROLHA|S1|100|20
+- ROLHA|S1|100|20
   VIDRO|M1|30|500
 - VIDRO|M1|40|50
 - VIDRO|M2|100|10
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
---- 105,137 ----
+--- 138,156 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
-! GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
-! GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
 ! ROLHA|20|500
-! ROLHA|20|500
-! ROLHA|20|500
-! VIDRO|30|500
-! VIDRO|30|500
 ! VIDRO|30|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
@@ -68,16 +182,8 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|S1|50|1000
-  GARRAFA|S1|50|1000
-+ GARRAFA|S1|50|1000
-+ GARRAFA|S1|80|1000
-+ GARRAFA|S1|80|1000
   GARRAFA|S1|80|1000
   ROLHA|M1|20|500
-! ROLHA|M1|20|500
-! ROLHA|M1|20|500
-! VIDRO|M1|30|500
-! VIDRO|M1|30|500
   VIDRO|M1|30|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
@@ -87,17 +193,9 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
   Escolha uma opção: Identificador do produto: VIDRO|M1|30|500
-! VIDRO|M1|40|50
-! VIDRO|M2|100|10
+- VIDRO|M1|40|50
+- VIDRO|M2|100|10
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
---- 139,146 ----
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-  Escolha uma opção: Identificador do produto: VIDRO|M1|30|500
-! VIDRO|M1|30|500
-! VIDRO|M1|30|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
+--- 158,163 ----
