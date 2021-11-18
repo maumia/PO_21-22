@@ -88,14 +88,17 @@ public class Warehouse implements Serializable {
     Batch b = new Batch(product, product.getPrice(),product.getStock() , getPartner(product.getPartnerId()));
     if(checkProduct(product.getProductId()) == true){
       Product var = getProduct(product.getProductId());
+      var.addStock(product.getStock());
       var.addBatch(b);
       if (var.getPrice() < product.getPrice()){
               var.setPrice(product.getPrice());
       }
+
     }
     else
        _products.add(product);
        Product var = getProduct(product.getProductId());
+       var.addStock(product.getStock());
        var.addBatch(b);
   }
 
@@ -287,7 +290,7 @@ public class Warehouse implements Serializable {
       i++;
     }
 
-    Product p = new AggregateProduct(productId, partnerId, price, aggravation, _recipe);
+    Product p = new AggregateProduct(productId, partnerId, price, amount,  aggravation, _recipe);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
     _products.add(p);
     p.addBatch(b);
