@@ -58,7 +58,7 @@ public class Parser {
     int stock = Integer.parseInt(components[4]);
 
     if (_store.checkProduct(idProduct) == false) {
-      Product product = new SimpleProduct(idProduct, idPartner, price);
+      Product product = new SimpleProduct(idProduct, idPartner, price, stock);
       _store.addSimpleProduct(product);
     }
 
@@ -92,7 +92,7 @@ public class Parser {
         _newRecipe.addComponent(newToRecipe);
       }
       
-      Product product = new AggregateProduct(idProduct, idPartner, price, aggravation, _newRecipe);
+      Product product = new AggregateProduct(idProduct, idPartner, price ,stock , aggravation, _newRecipe);
       _store.addAggregateProduct(product);
       _store.addRecipe(_newRecipe);
     }
