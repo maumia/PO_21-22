@@ -85,14 +85,18 @@ public class Warehouse implements Serializable {
   }
   
   protected void addSimpleProduct(Product product) {
+    Batch b = new Batch(product, product.getPrice(),product.getStock() , getPartner(product.getPartnerId()));
     if(checkProduct(product.getProductId()) == true){
       Product var = getProduct(product.getProductId());
+      var.addBatch(b);
       if (var.getPrice() < product.getPrice()){
               var.setPrice(product.getPrice());
       }
     }
     else
        _products.add(product);
+       Product var = getProduct(product.getProductId());
+       var.addBatch(b);
   }
 
   protected void addAggregateProduct(Product product) {
@@ -247,8 +251,8 @@ public class Warehouse implements Serializable {
   }
 
   protected void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount) {
-    Product p = new SimpleProduct(productId, partnerId, price);
-    Batch b = new Batch(p, price, amount, getPartner(partnerId));
+    Product p = new SimpleProduct(productId, partnerId, price, amount);
+    //Batch b = new Batch(p, price, amount, getPartner(partnerId));
     /*
     for(Product product : _products){
       if ((p.getProductId().equals(product.getProductId())) == true){
@@ -261,9 +265,8 @@ public class Warehouse implements Serializable {
       }
       else
       */
-    p.addStock(amount);
     addSimpleProduct(p);
-    p.addBatch(b);
+    //p.addBatch(b);
     Acquisition acquisition = new Acquisition(_transactionId, _date, price, amount, getProduct(productId), getPartner(partnerId));
     getPartner(partnerId).addPartnerShoppingValue(price * amount);
     _transactions.add(acquisition);
