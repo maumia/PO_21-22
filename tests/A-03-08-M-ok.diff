@@ -1,5 +1,28 @@
 *** tests/A-03-08-M-ok.out	2021-10-24 17:09:38.535816000 +0100
---- tests/A-03-08-M-ok.outhyp	2021-11-18 20:15:01.550656943 +0000
+--- tests/A-03-08-M-ok.outhyp	2021-11-18 20:36:34.405739968 +0000
+***************
+*** 15,24 ****
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: HIDROGENIO|2|5000
+! ROLHA|2|500
+! SAL|1|10
+! VIDRO|1|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+--- 15,24 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: HIDROGENIO|2|10000
+! ROLHA|2|1000
+! SAL|1|20
+! VIDRO|1|1000
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
 ***************
 *** 50,56 ****
   4 - Registar compra
@@ -17,3 +40,26 @@
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
+***************
+*** 75,84 ****
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: HIDROGENIO|2|5000
+! ROLHA|2|500
+! SAL|1|0
+! VIDRO|1|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+--- 75,84 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: HIDROGENIO|2|10000
+! ROLHA|2|1000
+! SAL|1|10
+! VIDRO|1|1000
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes

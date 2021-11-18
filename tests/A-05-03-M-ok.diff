@@ -1,0 +1,12 @@
+*** tests/A-05-03-M-ok.out	2021-10-24 22:28:19.461551000 +0100
+--- tests/A-05-03-M-ok.outhyp	2021-11-18 20:36:34.861735037 +0000
+***************
+*** 16,21 ****
+--- 16,22 ----
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+  Escolha uma opção: Identificador do parceiro: ROLHA|R1|20|500
++ ROLHA|R1|20|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes

@@ -23,8 +23,7 @@ Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identi
 4 - Registar compra
 5 - Receber pagamento de venda
 0 - Sair
-Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Registar venda: Operação inválida: Produto 'VIDRO': pedido=21, existências=20
-Gestão de Transacções
+Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Gestão de Transacções
 1 - Visualizar
 2 - Registar desagregação
 3 - Registar venda
@@ -56,6 +55,7 @@ Escolha uma opção: Gestão de Produtos
 4 - Visualizar lotes de um dado produto
 0 - Sair
 Escolha uma opção: Identificador do produto: VIDRO|M1|1|50
+VIDRO|M1|1|50
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes
@@ -63,9 +63,9 @@ Gestão de Produtos
 4 - Visualizar lotes de um dado produto
 0 - Sair
 Escolha uma opção: GARRAFA|10|500|nullROLHA:1#VIDRO:2
-ROLHA|2|50
-SAL|100|500
-VIDRO|1|0
+ROLHA|2|100
+SAL|100|1000
+VIDRO|1|29
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes

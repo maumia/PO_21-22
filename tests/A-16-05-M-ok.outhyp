@@ -81,9 +81,9 @@ Escolha uma opção: Gestão de Produtos
 0 - Sair
 Escolha uma opção: GARRAFA|55|100|nullROLHA:1#VIDRO:10
 GARRAFA2|50|100|nullROLHA:1#VIDRO:10
-ROLHA|2|500
-SAL|5|500
-VIDRO|5|500
+ROLHA|2|1000
+SAL|5|1000
+VIDRO|5|1000
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes
@@ -92,9 +92,9 @@ Gestão de Produtos
 0 - Sair
 Escolha uma opção: GARRAFA|55|100|nullROLHA:1#VIDRO:10
 GARRAFA2|50|100|nullROLHA:1#VIDRO:10
-ROLHA|2|500
-SAL|5|500
-VIDRO|5|500
+ROLHA|2|1000
+SAL|5|1000
+VIDRO|5|1000
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes

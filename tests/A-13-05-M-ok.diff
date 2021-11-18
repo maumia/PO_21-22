@@ -1,0 +1,12 @@
+*** tests/A-13-05-M-ok.out	2021-10-28 10:57:34.227219000 +0100
+--- tests/A-13-05-M-ok.outhyp	2021-11-18 20:36:42.305654834 +0000
+***************
+*** 15,20 ****
+--- 15,21 ----
+  0 - Sair
+  Escolha uma opção: Preço: ROLHA|M1|30|500
+  ROLHA|R1|20|500
++ ROLHA|R1|20|500
+  Consultas
+  1 - Produtos com Preço Abaixo de Limite
+  2 - Facturas pagas por parceiro

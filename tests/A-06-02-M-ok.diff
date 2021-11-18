@@ -1,0 +1,12 @@
+*** tests/A-06-02-M-ok.out	2021-10-25 22:56:08.608165000 +0100
+--- tests/A-06-02-M-ok.outhyp	2021-11-18 20:36:35.637726653 +0000
+***************
+*** 16,21 ****
+--- 16,22 ----
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+  Escolha uma opção: Identificador do produto: HIDROGENIO|S1|200|5000
++ HIDROGENIO|S1|200|5000
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes

@@ -1,0 +1,12 @@
+*** tests/A-05-04-M-ok.out	2021-10-24 22:33:47.491453000 +0100
+--- tests/A-05-04-M-ok.outhyp	2021-11-18 20:36:34.997733567 +0000
+***************
+*** 16,21 ****
+--- 16,22 ----
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+  Escolha uma opção: Identificador do parceiro: TRALHA|M1|2|500
++ TRALHA|M1|2|500
+  TRALHA|M1|20|500
+  TRALHA|M1|200|5000
+  Gestão de Produtos

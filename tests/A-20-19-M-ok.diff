@@ -1,5 +1,5 @@
 *** tests/A-20-19-M-ok.out	2021-11-11 22:38:14.152869000 +0000
---- tests/A-20-19-M-ok.outhyp	2021-11-18 20:15:17.745567447 +0000
+--- tests/A-20-19-M-ok.outhyp	2021-11-18 20:36:50.141570980 +0000
 ***************
 *** 30,36 ****
   4 - Registar compra
@@ -47,7 +47,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|1|M1|SAL|10|0|0|ggc.core.Date@707f7052|0
+! Escolha uma opção: Identificador da transacção: VENDA|1|M1|SAL|10|0|0|ggc.core.Date@21588809|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação

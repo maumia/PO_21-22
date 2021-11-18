@@ -1,0 +1,17 @@
+*** tests/A-05-05-M-ok.out	2021-10-25 12:00:04.831988000 +0100
+--- tests/A-05-05-M-ok.outhyp	2021-11-18 20:36:35.097732486 +0000
+***************
+*** 16,25 ****
+--- 16,27 ----
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+  Escolha uma opção: Identificador do parceiro: ROLHA|M1|20|500
++ ROLHA|M1|20|500
+  ROLHA|M1|100|100
+  ROLHA|M1|200|100
+  ROLHA|M1|400|100
+  TRALHA|M1|2|500
++ TRALHA|M1|2|500
+  TRALHA|M1|10|100
+  TRALHA|M1|40|10
+  TRALHA|M1|100|50

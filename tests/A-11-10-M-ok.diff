@@ -1,22 +1,26 @@
 *** tests/A-11-10-M-ok.out	2021-10-26 19:26:21.121282000 +0100
---- tests/A-11-10-M-ok.outhyp	2021-11-18 20:15:07.686240465 +0000
+--- tests/A-11-10-M-ok.outhyp	2021-11-18 20:36:40.453674739 +0000
 ***************
-*** 40,46 ****
+*** 40,48 ****
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|80|2000|VIDRO:1#ROLHA:1
-  ROLHA|10|0
-  VIDRO|30|500
+! ROLHA|10|0
+! VIDRO|30|500
   Gestão de Produtos
---- 40,46 ----
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+--- 40,48 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
-! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
-  ROLHA|10|0
-  VIDRO|30|500
+! Escolha uma opção: GARRAFA|80|1000|nullVIDRO:1#ROLHA:1
+! ROLHA|10|1
+! VIDRO|30|1000
   Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
 ***************
 *** 74,80 ****
   4 - Registar compra
@@ -35,21 +39,23 @@
   1 - Visualizar
   2 - Registar desagregação
 ***************
-*** 99,106 ****
+*** 99,107 ****
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|80|2000|VIDRO:1#ROLHA:1
 ! ROLHA|10|10
-  VIDRO|30|500
+! VIDRO|30|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
---- 99,106 ----
+  2 - Visualizar todos os lotes
+--- 99,107 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
-! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
-! ROLHA|10|0
-  VIDRO|30|500
+! Escolha uma opção: GARRAFA|80|1000|nullVIDRO:1#ROLHA:1
+! ROLHA|10|24
+! VIDRO|30|1000
   Gestão de Produtos
   1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes

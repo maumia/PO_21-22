@@ -50,10 +50,14 @@ Escolha uma opção: Gestão de Produtos
 4 - Visualizar lotes de um dado produto
 0 - Sair
 Escolha uma opção: CORTIÇA|M1|1|1500
+CORTIÇA|M1|1|1500
 GARRAFA|S1|10|2
+PLASTICO|M1|1|1000
 PLASTICO|M1|1|1000
 ROLHA|M1|2|2
 SAL|S1|100|500
+SAL|S1|100|500
+VIDRO|M1|1|200
 VIDRO|M1|1|200
 Gestão de Produtos
 1 - Visualizar todos os produtos

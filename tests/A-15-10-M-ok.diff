@@ -1,5 +1,5 @@
 *** tests/A-15-10-M-ok.out	2021-10-31 23:57:26.927950000 +0000
---- tests/A-15-10-M-ok.outhyp	2021-11-18 20:15:11.421989116 +0000
+--- tests/A-15-10-M-ok.outhyp	2021-11-18 20:36:44.141635134 +0000
 ***************
 *** 16,29 ****
   4 - Registar compra
@@ -50,10 +50,10 @@
   HIDROGENIO|S1|200|5000
 - ROLHA|R1|2|10
   ROLHA|R1|2|500
-- SAL|R1|16|50
+! SAL|R1|16|50
   SAL|S1|16|500
   VIDRO|M1|10|500
-- VIDRO|R1|10|100
+! VIDRO|R1|10|100
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
@@ -64,10 +64,10 @@
   HIDROGENIO|S1|200|5000
 - ROLHA|R1|2|10
   ROLHA|R1|2|500
-- SAL|R1|16|50
+! SAL|R1|16|50
   SAL|S1|16|500
   VIDRO|M1|10|500
-- VIDRO|R1|10|100
+! VIDRO|R1|10|100
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
@@ -75,22 +75,26 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|100|5|ROLHA:1#SAL:5#VIDRO:10
-  HIDROGENIO|200|5000
+! HIDROGENIO|200|5000
 ! ROLHA|2|510
 ! SAL|16|550
 ! VIDRO|10|600
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
---- 58,90 ----
+--- 58,98 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|S1|100|15
+! HIDROGENIO|S1|200|5000
   HIDROGENIO|S1|200|5000
   ROLHA|R1|2|500
+! ROLHA|R1|2|500
+! SAL|S1|16|500
   SAL|S1|16|500
   VIDRO|M1|10|500
+! VIDRO|M1|10|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
@@ -98,10 +102,14 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|S1|100|15
+! HIDROGENIO|S1|200|5000
   HIDROGENIO|S1|200|5000
   ROLHA|R1|2|500
+! ROLHA|R1|2|500
+! SAL|S1|16|500
   SAL|S1|16|500
   VIDRO|M1|10|500
+! VIDRO|M1|10|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
@@ -109,10 +117,10 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|100|15|nullROLHA:1#SAL:5#VIDRO:10
-  HIDROGENIO|200|5000
-! ROLHA|2|500
-! SAL|16|500
-! VIDRO|10|500
+! HIDROGENIO|200|10000
+! ROLHA|2|1000
+! SAL|16|1000
+! VIDRO|10|1000
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
