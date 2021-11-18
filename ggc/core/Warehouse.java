@@ -89,7 +89,7 @@ public class Warehouse implements Serializable {
       Product var = getProduct(product.getProductId());
       if (var.getPrice() < product.getPrice()){
               var.setPrice(product.getPrice());
-              var.addStock(product.getStock());
+              //var.addStock(product.getStock());
       }
       else
         var.addStock(product.getStock());
