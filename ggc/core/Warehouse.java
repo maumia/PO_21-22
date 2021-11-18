@@ -272,10 +272,6 @@ public class Warehouse implements Serializable {
     _transactionId++;
     _availableBalance -= price * amount;
     _contabilisticBalance -= price * amount;
-    /*Product var = getProduct(product.getProductId());
-      var.addStock(product.getStock());
-      if (var.getPrice() < product.getPrice())
-              var.setPrice(product.getPrice());*/ 
   }
   
   protected void registerAggregateAcquisition(String partnerId, String productId, Double price, int amount, String[] components, int[] quantities, Double aggravation) {
