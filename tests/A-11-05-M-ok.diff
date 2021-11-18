@@ -1,5 +1,5 @@
 *** tests/A-11-05-M-ok.out	2021-10-21 22:33:00.626383000 +0100
---- tests/A-11-05-M-ok.outhyp	2021-11-18 19:37:12.384989934 +0000
+--- tests/A-11-05-M-ok.outhyp	2021-11-18 19:56:51.735894207 +0000
 ***************
 *** 16,29 ****
   4 - Registar compra
@@ -41,12 +41,11 @@
   PAPEL|12|2000
   ROLHA|20|500
   VIDRO|30|500
---- 49,56 ----
+--- 49,55 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
-! PAPEL|12|2000
   PAPEL|12|2000
   ROLHA|20|500
   VIDRO|30|500
@@ -59,7 +58,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 79,85 ----
+--- 78,84 ----
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair

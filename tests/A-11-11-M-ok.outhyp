@@ -106,30 +106,18 @@ Escolha uma opção: Gestão de Produtos
 4 - Visualizar lotes de um dado produto
 0 - Sair
 Escolha uma opção: GARRAFA|80|8000|nullVIDRO:1#ROLHA:1
-GARRAFA|80|8050
-GARRAFA|40|50
-ROLHA|20|2000
-ROLHA|20|2100
-ROLHA|100|20
-VIDRO|30|2000
-VIDRO|100|2010
-VIDRO|40|50
+ROLHA|100|2000
+VIDRO|100|2000
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes
 3 - Visualizar lotes fornecidos por parceiro
 4 - Visualizar lotes de um dado produto
 0 - Sair
-Escolha uma opção: GARRAFA|M1|40|50
-GARRAFA|S1|20|50
-GARRAFA|S1|50|1000
+Escolha uma opção: GARRAFA|S1|50|1000
 GARRAFA|S1|80|1000
-ROLHA|M1|10|100
 ROLHA|M1|20|500
-ROLHA|S1|100|20
 VIDRO|M1|30|500
-VIDRO|M1|40|50
-VIDRO|M2|100|10
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes
@@ -137,8 +125,6 @@ Gestão de Produtos
 4 - Visualizar lotes de um dado produto
 0 - Sair
 Escolha uma opção: Identificador do produto: VIDRO|M1|30|500
-VIDRO|M1|40|50
-VIDRO|M2|100|10
 Gestão de Produtos
 1 - Visualizar todos os produtos
 2 - Visualizar todos os lotes

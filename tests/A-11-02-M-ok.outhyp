@@ -42,7 +42,6 @@ Escolha uma opção: Gestão de Produtos
 0 - Sair
 Escolha uma opção: HIDROGENIO|200|5000
 ROLHA|30|2000
-ROLHA|25|100
 SAL|1000|500
 VIDRO|1000|500
 Gestão de Produtos
@@ -53,7 +52,6 @@ Gestão de Produtos
 0 - Sair
 Escolha uma opção: HIDROGENIO|S1|200|5000
 ROLHA|M1|20|500
-ROLHA|M1|25|100
 ROLHA|M1|30|500
 SAL|S1|1000|500
 VIDRO|M1|1000|500

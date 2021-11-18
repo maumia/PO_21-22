@@ -1,5 +1,5 @@
 *** tests/A-11-07-M-ok.out	2021-10-22 08:55:30.342525000 +0100
---- tests/A-11-07-M-ok.outhyp	2021-11-18 19:37:12.760994234 +0000
+--- tests/A-11-07-M-ok.outhyp	2021-11-18 19:56:52.031893919 +0000
 ***************
 *** 16,30 ****
   4 - Registar compra
@@ -66,12 +66,11 @@
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
---- 89,97 ----
+--- 89,96 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: NOVO|25|40
-! NOVO|25|40
 ! ROLHA|20|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
@@ -85,7 +84,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 117,123 ----
+--- 116,122 ----
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
@@ -102,7 +101,7 @@
   S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
   Gestão de Parceiros
   1 - Mostrar parceiro
---- 126,132 ----
+--- 125,131 ----
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair

@@ -1,5 +1,5 @@
 *** tests/A-11-01-M-ok.out	2021-10-26 19:22:39.869774000 +0100
---- tests/A-11-01-M-ok.outhyp	2021-11-18 19:37:11.780983026 +0000
+--- tests/A-11-01-M-ok.outhyp	2021-11-18 19:56:51.187894740 +0000
 ***************
 *** 61,67 ****
   4 - Registar compra
@@ -35,22 +35,36 @@
   1 - Visualizar
   2 - Registar desagregação
 ***************
-*** 96,101 ****
+*** 96,102 ****
+  0 - Sair
+  Escolha uma opção: HIDROGENIO|2|5000
+  ROLHA|2|500
+! SAL|100|10
+  VIDRO|1|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
 --- 96,102 ----
   0 - Sair
   Escolha uma opção: HIDROGENIO|2|5000
   ROLHA|2|500
-+ SAL|1|0
-  SAL|100|10
+! SAL|100|0
   VIDRO|1|500
   Gestão de Produtos
+  1 - Visualizar todos os produtos
 ***************
-*** 105,110 ****
---- 106,112 ----
+*** 104,110 ****
+  3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
-  Escolha uma opção: Identificador do produto: SAL|M1|100|10
-+ SAL|S1|1|10
+! Escolha uma opção: Identificador do produto: SAL|M1|100|10
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes
+--- 104,110 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: Identificador do produto: SAL|S1|1|10
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
