@@ -1,5 +1,5 @@
-*** tests/A-14-04-M-ok.out	Thu Oct 28 17:57:00 2021
---- tests/A-14-04-M-ok.outhyp	Wed Nov 17 12:12:05 2021
+*** tests/A-14-04-M-ok.out	2021-10-28 17:57:00.309012000 +0100
+--- tests/A-14-04-M-ok.outhyp	2021-11-18 18:17:35.168770835 +0000
 ***************
 *** 59,66 ****
   1 - Produtos com Preço Abaixo de Limite

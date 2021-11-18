@@ -1,7 +1,7 @@
-*** tests/A-20-23-M-ok.out	Fri Nov 12 08:49:35 2021
---- tests/A-20-23-M-ok.outhyp	Wed Nov 17 12:12:05 2021
+*** tests/A-20-23-M-ok.out	2021-11-12 08:49:35.065720000 +0000
+--- tests/A-20-23-M-ok.outhyp	2021-11-18 18:17:44.964576033 +0000
 ***************
-*** 27,139 ****
+*** 27,232 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
@@ -112,22 +112,13 @@
 ! 5 - Receber pagamento de venda
 ! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: VENDA|2|M1|SAL|1|100|100|1
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
---- 27,33 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Registar venda: Operação inválida: O parceiro 'M1' não existe.
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-***************
-*** 141,278 ****
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: Gestão de Transacções
 ! 1 - Visualizar
 ! 2 - Registar desagregação
@@ -214,13 +205,22 @@
 ! 5 - Receber pagamento de venda
 ! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: VENDA|3|M1|SAL|1|100|95|23|20
-! Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+--- 27,33 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identificador do produto: Quantidade: Registar venda: Operação inválida: O parceiro 'M1' não existe.
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+***************
+*** 234,278 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
 ! Escolha uma opção: Menu Principal
 ! 1 - Abrir
 ! 2 - Guardar

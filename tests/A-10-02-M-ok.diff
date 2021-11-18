@@ -1,5 +1,5 @@
-*** tests/A-10-02-M-ok.out	Tue Nov  2 18:37:04 2021
---- tests/A-10-02-M-ok.outhyp	Wed Nov 17 12:12:05 2021
+*** tests/A-10-02-M-ok.out	2021-11-02 18:37:04.855549000 +0000
+--- tests/A-10-02-M-ok.outhyp	2021-11-18 18:17:27.176936577 +0000
 ***************
 *** 17,24 ****
   5 - Mostrar compras com parceiro

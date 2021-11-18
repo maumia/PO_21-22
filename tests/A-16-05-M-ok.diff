@@ -1,17 +1,17 @@
-*** tests/A-16-05-M-ok.out	Mon Nov  1 17:47:01 2021
---- tests/A-16-05-M-ok.outhyp	Wed Nov 17 12:12:05 2021
+*** tests/A-16-05-M-ok.out	2021-11-01 17:47:01.900465000 +0000
+--- tests/A-16-05-M-ok.outhyp	2021-11-18 18:17:38.276708094 +0000
 ***************
-*** 16,44 ****
+*** 16,36 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
 ! Escolha uma opção: Identificador do parceiro: Identificador do produto: Quantidade: Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
 ! Escolha uma opção: Identificador do parceiro: Identificador do produto: Quantidade: Gestão de Transacções
 ! 1 - Visualizar
 ! 2 - Registar desagregação
@@ -20,14 +20,6 @@
 ! 5 - Receber pagamento de venda
 ! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: DESAGREGAÇÃO|0|S1|GARRAFA|4|12|12|0|ROLHA:4:8#VIDRO:40:200
-! Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador da transacção: DESAGREGAÇÃO|1|M1|GARRAFA2|4|-8|0|0|ROLHA:4:8#VIDRO:40:200
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -49,10 +41,18 @@
   1 - Visualizar
   2 - Registar desagregação
 ***************
-*** 46,80 ****
+*** 38,80 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
+! Escolha uma opção: Identificador da transacção: DESAGREGAÇÃO|1|M1|GARRAFA2|4|-8|0|0|ROLHA:4:8#VIDRO:40:200
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: Gestão de Transacções
 ! 1 - Visualizar
 ! 2 - Registar desagregação
@@ -121,7 +121,7 @@
   Escolha uma opção: Menu Principal
   1 - Abrir
 ***************
-*** 87,110 ****
+*** 87,115 ****
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
@@ -146,7 +146,12 @@
   0 - Sair
   Escolha uma opção: Menu Principal
   1 - Abrir
---- 73,105 ----
+  2 - Guardar
+  3 - Mostrar Data
+  4 - Avançar Data
+  5 - Gestão de Produtos
+  6 - Gestão de Parceiros
+--- 73,122 ----
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
@@ -180,17 +185,8 @@
   0 - Sair
   Escolha uma opção: Menu Principal
   1 - Abrir
-***************
-*** 117,120 ****
---- 112,127 ----
-  8 - Menu de Consultas
-  9 - Ver Saldo Global
-  0 - Sair
-+ Escolha uma opção: Ficheiro a abrir: Abrir: Operação inválida: Problema ao abrir '1'.
-+ Menu Principal
-+ 1 - Abrir
-+ 2 - Guardar
-+ 3 - Mostrar Data
+  2 - Guardar
+  3 - Mostrar Data
 + 4 - Avançar Data
 + 5 - Gestão de Produtos
 + 6 - Gestão de Parceiros
@@ -198,5 +194,11 @@
 + 8 - Menu de Consultas
 + 9 - Ver Saldo Global
 + 0 - Sair
-  Escolha uma opção: 
-\ No newline at end of file
++ Escolha uma opção: Ficheiro a abrir: Abrir: Operação inválida: Problema ao abrir '1'.
++ Menu Principal
++ 1 - Abrir
++ 2 - Guardar
++ 3 - Mostrar Data
+  4 - Avançar Data
+  5 - Gestão de Produtos
+  6 - Gestão de Parceiros

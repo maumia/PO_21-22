@@ -1,25 +1,27 @@
-*** tests/A-16-04-M-ok.out	Mon Nov  1 17:33:01 2021
---- tests/A-16-04-M-ok.outhyp	Thu Nov 18 17:13:22 2021
+*** tests/A-16-04-M-ok.out	2021-11-01 17:33:01.340331000 +0000
+--- tests/A-16-04-M-ok.outhyp	2021-11-18 18:17:38.096711698 +0000
 ***************
-*** 16,82 ****
+*** 23,29 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: COMPRA|0|S1|SAL|50|300|0
-! Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+--- 23,29 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador da transacção: COMPRA|0|S1|SAL|50|6|0
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+***************
+*** 31,82 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
 ! Escolha uma opção: Identificador da transacção: Gestão de Transacções
 ! 1 - Visualizar
 ! 2 - Registar desagregação
@@ -70,9 +72,9 @@
 ! 0 - Sair
 ! Escolha uma opção: 
 \ No newline at end of file
---- 16,19 ----
+--- 31,34 ----
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: 
+! Escolha uma opção: Identificador da transacção: 
 \ No newline at end of file
