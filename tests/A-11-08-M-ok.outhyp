@@ -23,7 +23,7 @@ Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço
 4 - Registar compra
 5 - Receber pagamento de venda
 0 - Sair
-Escolha uma opção: Identificador da transacção: COMPRA|0|M1|ROLHA|100|100|0
+Escolha uma opção: Identificador da transacção: COMPRA|0|M1|ROLHA|100|10000|0
 Gestão de Transacções
 1 - Visualizar
 2 - Registar desagregação
@@ -110,7 +110,7 @@ Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço
 4 - Registar compra
 5 - Receber pagamento de venda
 0 - Sair
-Escolha uma opção: Identificador da transacção: COMPRA|1|M1|GARRAFA|100|300|0
+Escolha uma opção: Identificador da transacção: COMPRA|1|M1|GARRAFA|100|30000|0
 Gestão de Transacções
 1 - Visualizar
 2 - Registar desagregação

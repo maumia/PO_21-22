@@ -179,10 +179,10 @@ Escolha uma opção: Gestão de Parceiros
 5 - Mostrar compras com parceiro
 6 - Mostrar vendas (e desagregações) com parceiro
 0 - Sair
-Escolha uma opção: Identificador do parceiro: COMPRA|0|M1|SAL|10|10|5
-COMPRA|1|M1|SAL|20|10|5
-COMPRA|3|M1|SAL|30|10|5
-COMPRA|8|M1|VIDRO|10|10|5
+Escolha uma opção: Identificador do parceiro: COMPRA|0|M1|SAL|10|100|5
+COMPRA|1|M1|SAL|20|200|5
+COMPRA|3|M1|SAL|30|300|5
+COMPRA|8|M1|VIDRO|10|100|5
 Gestão de Parceiros
 1 - Mostrar parceiro
 2 - Mostrar parceiros
@@ -191,8 +191,8 @@ Gestão de Parceiros
 5 - Mostrar compras com parceiro
 6 - Mostrar vendas (e desagregações) com parceiro
 0 - Sair
-Escolha uma opção: Identificador do parceiro: COMPRA|2|M2|VIDRO|10|10|5
-COMPRA|4|M2|VIDRO|40|10|5
+Escolha uma opção: Identificador do parceiro: COMPRA|2|M2|VIDRO|10|100|5
+COMPRA|4|M2|VIDRO|40|400|5
 Gestão de Parceiros
 1 - Mostrar parceiro
 2 - Mostrar parceiros

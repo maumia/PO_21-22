@@ -109,7 +109,7 @@ Escolha uma opção: Consultas
 1 - Produtos com Preço Abaixo de Limite
 2 - Facturas pagas por parceiro
 0 - Sair
-Escolha uma opção: Identificador do parceiro: COMPRA|3|M1|SAL|4|5|2
+Escolha uma opção: Identificador do parceiro: COMPRA|3|M1|SAL|4|20|2
 VENDA|0|M1|SAL|2|0|0|ggc.core.Date@2f2c9b19|0
 VENDA|1|M1|ROLHA|3|0|0|ggc.core.Date@31befd9f|0
 VENDA|2|M1|HIDROGENIO|4|0|0|ggc.core.Date@1c20c684|0

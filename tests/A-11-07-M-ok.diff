@@ -1,5 +1,5 @@
 *** tests/A-11-07-M-ok.out	2021-10-22 08:55:30.342525000 +0100
---- tests/A-11-07-M-ok.outhyp	2021-11-18 21:43:40.825323514 +0000
+--- tests/A-11-07-M-ok.outhyp	2021-11-18 21:49:26.436474869 +0000
 ***************
 *** 16,30 ****
   4 - Registar compra
@@ -53,7 +53,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: COMPRA|0|M1|NOVO|40|25|0
+! Escolha uma opção: Identificador da transacção: COMPRA|0|M1|NOVO|40|1000|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
