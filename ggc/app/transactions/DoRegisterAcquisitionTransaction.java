@@ -44,7 +44,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
       }
         
       
-  else 
-    throw new UnknownPartnerKeyException(_partnerId);
+     else 
+      throw new UnknownPartnerKeyException(_partnerId);
   }
 }
