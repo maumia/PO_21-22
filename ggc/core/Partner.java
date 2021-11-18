@@ -8,9 +8,9 @@ public class Partner implements Serializable {
     private String _id;
     private String _status;
     private double _points;
-    private int _shoppingValue;
-    private int _sellsValueMade;
-    private int _sellsValuePaid;
+    private double _shoppingValue;
+    private double _sellsValueMade;
+    private double _sellsValuePaid;
 
     /**
     * Serial number for serialization.
@@ -61,20 +61,24 @@ public class Partner implements Serializable {
         _points += newPoints;
     }
 
-    int getPartnerShoppingValue() {
+    double getPartnerShoppingValue() {
     	return _shoppingValue;
     }
 
-    int getPartnerSellsValueMade() {
+    double getPartnerSellsValueMade() {
     	return _sellsValueMade;
     }
 
-    int getPartnerSellsValuePaid() {
+    void addPartnerShoppingValue(Double value){
+        _shoppingValue += value;
+    }
+
+    double getPartnerSellsValuePaid() {
    	 return _sellsValuePaid;
     }
 
     @Override
     public String toString() {
-        return getPartnerId() + "|" + getPartnerName() + "|" + getPartnerAdress() + "|" + getPartnerStatus() + "|" + Math.round(getPartnerPoints()) + "|" + getPartnerShoppingValue() + "|" + getPartnerSellsValueMade() + "|" + getPartnerSellsValuePaid();
+        return getPartnerId() + "|" + getPartnerName() + "|" + getPartnerAdress() + "|" + getPartnerStatus() + "|" + Math.round(getPartnerPoints()) + "|" +  Math.round(getPartnerShoppingValue()) + "|" +  Math.round(getPartnerSellsValueMade()) + "|" +  Math.round(getPartnerSellsValuePaid());
     }
 }
