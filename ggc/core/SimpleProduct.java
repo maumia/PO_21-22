@@ -2,8 +2,8 @@ package ggc.core;
 
 public class SimpleProduct extends Product {
 
-    SimpleProduct(String idProduct, String idPartner, double price, int stock) {
-        super(idProduct, idPartner, price,stock, 5);
+    SimpleProduct(String idProduct, String idPartner, double price) {
+        super(idProduct, idPartner, price, 5);
     }
 
     @Override

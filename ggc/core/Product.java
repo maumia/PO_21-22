@@ -24,11 +24,11 @@ public abstract class Product implements Serializable{
    * @param price
    * @param n
    */
-    Product(String idProduct, String idPartner, double price,int stock , int n) { 
+    Product(String idProduct, String idPartner, double price, int n) { 
         _idProduct = idProduct;
         _idPartner = idPartner;
         _price = price;
-        _stock = stock;
+        _stock = 0;
         _batches = new ArrayList<>();
         _n = n;
     }
@@ -95,7 +95,7 @@ public abstract class Product implements Serializable{
     */
     void addBatch(Batch batch) {
         _batches.add(batch);
-        //addStock(batch.getBatchStock());
+        addStock(batch.getBatchStock());
         checkPrice(batch);
         checkLowPrice(batch);
     }
