@@ -249,8 +249,8 @@ public class Warehouse implements Serializable {
     _transactions.add(acquisition);
     _acquisitions.add(acquisition);
     _transactionId++;
-    _availableBalance += price;
-    _contabilisticBalance += price;
+    _availableBalance -= price * amount;
+    _contabilisticBalance -= price * amount;
   }
   
   protected void registerAggregateAcquisition(String partnerId, String productId, Double price, int amount, String[] components, int[] quantities, Double aggravation) {
@@ -274,7 +274,7 @@ public class Warehouse implements Serializable {
     _availableBalance += price;
     _contabilisticBalance += price;
   }
-
+/*
   protected void registerBatchAcquisition(String productId, double price, int stock, String partnerId) {
     Product product = getProduct(productId);
     Batch batch = new Batch(product, price, stock, getPartner(partnerId));
@@ -285,6 +285,7 @@ public class Warehouse implements Serializable {
     _availableBalance -= price;
     _contabilisticBalance -= price;
   }
+  */
 
   protected double getAvailableBalance() {
     return _availableBalance;
