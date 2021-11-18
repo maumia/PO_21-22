@@ -217,7 +217,7 @@ public class Warehouse implements Serializable {
 
     for(Product product: _products)
       product.addBatches(batchesCopy);
-      
+
     batchesCopy.sort(batchComparator);
     for(Batch batch: batchesCopy) {
       if(price > (int)(batch.getBatchPrice())) 
@@ -397,3 +397,9 @@ public class Warehouse implements Serializable {
     return description;
   }
 }
+
+
+
+
+
+
