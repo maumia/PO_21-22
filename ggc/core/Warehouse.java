@@ -242,19 +242,7 @@ public class Warehouse implements Serializable {
   protected void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount) {
     Product p = new SimpleProduct(productId, partnerId, price);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
-    /*
-    for(Product product : _products){
-      if ((p.getProductId().equals(product.getProductId())) == true){
-        if(p.getPrice()>product.getPrice()){
-          product.setPrice(p.getPrice());
-          product.addStock(amount);
-        }
-        else
-          product.addStock(amount);
-      }
-      else
-      */
-    //p.addStock(amount);
+
     if(checkProduct(p.getProductId()) == true){
       Product var = getProduct(p.getProductId());
       var.addBatch(b);
@@ -307,6 +295,8 @@ public class Warehouse implements Serializable {
     _contabilisticBalance -= price;
   }
   */
+
+//  protected void registerBreakdown(Product product, int amount, Partner partner,   )
 
   protected double getAvailableBalance() {
     return _availableBalance;
