@@ -30,6 +30,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
     Double _price = _form.realField("_price");
     int _amount = _form.integerField("_amount");
     if(_receiver.checkPartner(_partnerId) == true) {
+        /*
         _fform.addStringField("_answear", Message.requestAddRecipe());
         _fform.parse();
         String _answear = _fform.stringField("_answear");
@@ -38,7 +39,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
         }
         else
           _display.display();
-        
+        */
         _receiver.registerSimpleAcquisition(_partnerId, _productId, _price, _amount);
       }
         
