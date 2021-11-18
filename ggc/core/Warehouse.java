@@ -85,7 +85,15 @@ public class Warehouse implements Serializable {
   }
   
   protected void addSimpleProduct(Product product) {
-    _products.add(product);
+    if(_products.contains(product))
+      for(int i=0; i < _products.size(); i++){
+        if(_products.get(i).getProductId().equals(product.getProductId())){
+          if(_products.get(i).getPrice() < product.getPrice())
+            _products.get(i).setPrice(product.getPrice());
+        }
+      }
+     else
+      _products.add(product);
   }
 
   protected void addAggregateProduct(Product product) {
@@ -254,9 +262,7 @@ public class Warehouse implements Serializable {
       }
       else
       */
-      _products.add(p);
-    
-    
+    addSimpleProduct(p);
     p.addBatch(b);
     Acquisition acquisition = new Acquisition(_transactionId, _date, price, amount, getProduct(productId), getPartner(partnerId));
     getPartner(partnerId).addPartnerShoppingValue(price * amount);
