@@ -1,15 +1,5 @@
 *** tests/A-10-20-M-ok.out	2021-11-05 13:01:36.152472000 +0000
---- tests/A-10-20-M-ok.outhyp	2021-11-18 20:59:56.623122452 +0000
-***************
-*** 54,59 ****
---- 54,60 ----
-  Escolha uma opção: HIDROGENIO|200|5000
-  ROLHA|2000|500
-  SAL|10|10
-+ SAL|10|10
-  VIDRO|1000|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
+--- tests/A-10-20-M-ok.outhyp	2021-11-18 21:35:55.382181441 +0000
 ***************
 *** 180,189 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -22,7 +12,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 181,186 ----
+--- 180,185 ----
 ***************
 *** 193,202 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -35,7 +25,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 190,195 ----
+--- 189,194 ----
 ***************
 *** 206,213 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -46,7 +36,7 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 199,204 ----
+--- 198,203 ----
 ***************
 *** 217,224 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -57,4 +47,4 @@
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
---- 208,213 ----
+--- 207,212 ----

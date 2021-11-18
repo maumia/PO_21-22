@@ -1,5 +1,5 @@
 *** tests/A-11-07-M-ok.out	2021-10-22 08:55:30.342525000 +0100
---- tests/A-11-07-M-ok.outhyp	2021-11-18 20:59:57.635099713 +0000
+--- tests/A-11-07-M-ok.outhyp	2021-11-18 21:35:56.462162562 +0000
 ***************
 *** 16,30 ****
   4 - Registar compra
@@ -70,7 +70,7 @@
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
-! Escolha uma opção: NOVO|25|120
+! Escolha uma opção: NOVO|25|40
 ! ROLHA|20|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
@@ -88,7 +88,7 @@
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|2000|0|0
+! Escolha uma opção: Identificador do parceiro: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|1000|0|0
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
@@ -105,7 +105,7 @@
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
-! Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|2000|0|0
+! Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|1000|0|0
   S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
   Gestão de Parceiros
   1 - Mostrar parceiro
