@@ -31,6 +31,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
     int _amount = _form.integerField("_amount");
     if(_receiver.checkPartner(_partnerId) == true) {
       if(_receiver.checkProduct(_productId) == false) {
+        /*
         _fform.addStringField("_answear", Message.requestAddRecipe());
         _fform.parse();
         String _answear = _fform.stringField("_answear");
@@ -39,15 +40,23 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
         }
         else
           _display.display();
+        */
+        _receiver.registerSimpleAcquisition(_partnerId, _productId, _price, _amount);
       }
       else
+        /*
         _fform.addStringField("_answear", Message.requestAddRecipe());
         _fform.parse();
         String _answear = _fform.stringField("_answear");
         if (_answear.equals("n")){
-          _receiver.addSimpleProduct(_receiver.getProduct(_productId));
           _receiver.registerSimpleAcquisition(_partnerId, _productId, _price, _amount);
         }
+        else
+          _display.display();
+        */
+          _receiver.addSimpleProduct(_receiver.getProduct(_productId));
+          _receiver.registerSimpleAcquisition(_partnerId, _productId, _price, _amount);
+        
       }
   else 
     throw new UnknownPartnerKeyException(_partnerId);
