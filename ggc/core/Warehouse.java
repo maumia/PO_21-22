@@ -85,20 +85,17 @@ public class Warehouse implements Serializable {
   }
   
   protected void addSimpleProduct(Product product) {
-    if(_products.contains(product))
-      for(int i=0; i < _products.size(); i++){
-        if(_products.get(i).getProductId().equals(product.getProductId())){
-          if(_products.get(i).getPrice() < product.getPrice()){
-            _products.get(i).setPrice(product.getPrice());
-            _products.get(i).addStock(product.getStock());
-        }
-          else
-            _products.get(i).addStock(product.getStock());
-
-        }
+    if(checkProduct(product.getProductId()) == true){
+      Product var = getProduct(product.getProductId());
+      if (var.getPrice() < product.getPrice()){
+              var.setPrice(product.getPrice());
+              var.addStock(product.getStock());
       }
+      else
+        var.addStock(product.getStock());
+    }
     else
-      _products.add(product);
+       _products.add(product);
   }
 
   protected void addAggregateProduct(Product product) {
