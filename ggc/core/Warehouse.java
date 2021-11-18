@@ -85,16 +85,7 @@ public class Warehouse implements Serializable {
   }
   
   protected void addSimpleProduct(Product product) {
-    if(checkProduct(product.getProductId()) == true){
-      Product var = getProduct(product.getProductId());
-      var.addStock(product.getStock());
-      if (var.getPrice() < product.getPrice())
-              var.setPrice(product.getPrice());
-    }
-    else
        _products.add(product);
-       Product var = getProduct(product.getProductId());
-       var.addStock(product.getStock());
   }
 
   protected void addAggregateProduct(Product product) {
@@ -264,8 +255,16 @@ public class Warehouse implements Serializable {
       else
       */
     p.addStock(amount);
-    addSimpleProduct(p);
-    p.addBatch(b);
+    if(checkProduct(p.getProductId()) == true){
+      Product var = getProduct(p.getProductId());
+      var.addStock(p.getStock());
+      if (var.getPrice() < p.getPrice())
+              var.setPrice(p.getPrice());
+    }
+    else{
+      addSimpleProduct(p);
+      p.addBatch(b);
+    }
     Acquisition acquisition = new Acquisition(_transactionId, _date, price, amount, getProduct(productId), getPartner(partnerId));
     getPartner(partnerId).addPartnerShoppingValue(price * amount);
     _transactions.add(acquisition);
@@ -273,7 +272,10 @@ public class Warehouse implements Serializable {
     _transactionId++;
     _availableBalance -= price * amount;
     _contabilisticBalance -= price * amount;
-    
+    /*Product var = getProduct(product.getProductId());
+      var.addStock(product.getStock());
+      if (var.getPrice() < product.getPrice())
+              var.setPrice(product.getPrice());*/ 
   }
   
   protected void registerAggregateAcquisition(String partnerId, String productId, Double price, int amount, String[] components, int[] quantities, Double aggravation) {
