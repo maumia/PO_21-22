@@ -1,5 +1,5 @@
 *** tests/A-10-05-M-ok.out	2021-11-05 13:01:31.031162000 +0000
---- tests/A-10-05-M-ok.outhyp	2021-11-18 19:13:08.093774766 +0000
+--- tests/A-10-05-M-ok.outhyp	2021-11-18 19:37:08.488945422 +0000
 ***************
 *** 43,49 ****
   6 - Mostrar vendas (e desagregações) com parceiro
@@ -33,8 +33,8 @@
   0 - Sair
   Escolha uma opção: HIDROGENIO|200|5000
   ROLHA|2000|500
-! SAL|100|500
-! SAL|100|10
+! SAL|100|2000
+! SAL|100|2010
 ! SAL|2|3
   VIDRO|1000|500
   Gestão de Produtos
