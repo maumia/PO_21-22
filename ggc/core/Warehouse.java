@@ -87,15 +87,14 @@ public class Warehouse implements Serializable {
   protected void addSimpleProduct(Product product) {
     if(checkProduct(product.getProductId()) == true){
       Product var = getProduct(product.getProductId());
-      if (var.getPrice() < product.getPrice()){
+      var.addStock(product.getStock());
+      if (var.getPrice() < product.getPrice())
               var.setPrice(product.getPrice());
-              var.addStock(product.getStock());
-      }
-      else
-        var.addStock(product.getStock());
     }
     else
        _products.add(product);
+       Product var = getProduct(product.getProductId());
+       var.addStock(product.getStock());
   }
 
   protected void addAggregateProduct(Product product) {
@@ -264,6 +263,7 @@ public class Warehouse implements Serializable {
       }
       else
       */
+    p.addStock(amount);
     addSimpleProduct(p);
     p.addBatch(b);
     Acquisition acquisition = new Acquisition(_transactionId, _date, price, amount, getProduct(productId), getPartner(partnerId));
