@@ -1,5 +1,5 @@
 *** tests/A-11-02-M-ok.out	2021-10-21 16:21:02.502068000 +0100
---- tests/A-11-02-M-ok.outhyp	2021-11-18 18:17:31.124853877 +0000
+--- tests/A-11-02-M-ok.outhyp	2021-11-18 19:02:50.260702207 +0000
 ***************
 *** 41,47 ****
   4 - Visualizar lotes de um dado produto
@@ -9,26 +9,12 @@
   SAL|1000|500
   VIDRO|1000|500
   Gestão de Produtos
---- 41,49 ----
+--- 41,48 ----
   4 - Visualizar lotes de um dado produto
   0 - Sair
   Escolha uma opção: HIDROGENIO|200|5000
 ! ROLHA|30|1000
-! ROLHA|30|1000
 ! ROLHA|25|100
   SAL|1000|500
   VIDRO|1000|500
-  Gestão de Produtos
-***************
-*** 52,59 ****
---- 54,63 ----
-  0 - Sair
-  Escolha uma opção: HIDROGENIO|S1|200|5000
-  ROLHA|M1|20|500
-+ ROLHA|M1|20|500
-  ROLHA|M1|25|100
-  ROLHA|M1|30|500
-+ ROLHA|M1|30|500
-  SAL|S1|1000|500
-  VIDRO|M1|1000|500
   Gestão de Produtos

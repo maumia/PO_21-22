@@ -97,7 +97,6 @@ Escolha uma opção: Gestão de Produtos
 Escolha uma opção: HIDROGENIO|2|5000
 ROLHA|2|500
 SAL|1|0
-SAL|1|0
 SAL|100|10
 VIDRO|1|500
 Gestão de Produtos
@@ -107,7 +106,6 @@ Gestão de Produtos
 4 - Visualizar lotes de um dado produto
 0 - Sair
 Escolha uma opção: Identificador do produto: SAL|M1|100|10
-SAL|S1|1|10
 SAL|S1|1|10
 Gestão de Produtos
 1 - Visualizar todos os produtos

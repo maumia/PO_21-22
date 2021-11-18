@@ -1,5 +1,5 @@
 *** tests/A-11-08-M-ok.out	2021-10-26 19:16:21.143782000 +0100
---- tests/A-11-08-M-ok.outhyp	2021-11-18 18:17:32.152832613 +0000
+--- tests/A-11-08-M-ok.outhyp	2021-11-18 19:02:51.236688908 +0000
 ***************
 *** 23,29 ****
   4 - Registar compra
@@ -27,12 +27,11 @@
   VIDRO|90|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
---- 48,57 ----
+--- 48,56 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
-! ROLHA|50|2000
 ! ROLHA|50|2000
 ! ROLHA|100|100
   VIDRO|90|500
@@ -47,7 +46,7 @@
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
---- 112,118 ----
+--- 111,117 ----
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
@@ -65,14 +64,12 @@
   VIDRO|90|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
---- 175,186 ----
+--- 174,183 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
-! GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
 ! GARRAFA|300|100
-! ROLHA|50|2000
 ! ROLHA|50|2000
 ! ROLHA|100|100
   VIDRO|90|500
