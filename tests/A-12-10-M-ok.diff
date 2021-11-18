@@ -1,125 +1,40 @@
 *** tests/A-12-10-M-ok.out	2021-11-17 12:10:08.582594676 +0000
---- tests/A-12-10-M-ok.outhyp	2021-11-18 16:51:00.961444098 +0000
+--- tests/A-12-10-M-ok.outhyp	2021-11-18 16:54:44.649657519 +0000
 ***************
-*** 58,71 ****
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
---- 58,82 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Registar receita? Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Número inválido!
-! Escolha uma opção: Número inválido!
-! Escolha uma opção: Opção inválida!
-! Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
-! Escolha uma opção: Opção inválida!
-! Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-***************
-*** 83,89 ****
+*** 83,90 ****
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
 ! Escolha uma opção: Saldo disponível: -50
-  Saldo contabilístico: 0
+! Saldo contabilístico: 0
   Menu Principal
   1 - Abrir
---- 94,100 ----
+  2 - Guardar
+--- 83,90 ----
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
-! Escolha uma opção: Saldo disponível: 0
-  Saldo contabilístico: 0
+! Escolha uma opção: Saldo disponível: -500
+! Saldo contabilístico: -500
   Menu Principal
   1 - Abrir
+  2 - Guardar
 ***************
-*** 103,129 ****
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Menu Principal
-! 1 - Abrir
-! 2 - Guardar
-! 3 - Mostrar Data
-! 4 - Avançar Data
-! 5 - Gestão de Produtos
-! 6 - Gestão de Parceiros
-! 7 - Gestão de Transacções
-! 8 - Menu de Consultas
-! 9 - Ver Saldo Global
+*** 121,128 ****
+  8 - Menu de Consultas
+  9 - Ver Saldo Global
   0 - Sair
 ! Escolha uma opção: Saldo disponível: -150
 ! Saldo contabilístico: -100
-! Menu Principal
+  Menu Principal
   1 - Abrir
   2 - Guardar
-  3 - Mostrar Data
---- 114,135 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Registar receita? Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Opção inválida!
-! Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Menu Principal
-  1 - Abrir
-  2 - Guardar
-  3 - Mostrar Data
-***************
-*** 134,137 ****
+--- 121,128 ----
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
-! Escolha uma opção: 
-\ No newline at end of file
---- 140,143 ----
-  8 - Menu de Consultas
-  9 - Ver Saldo Global
-  0 - Sair
-! Escolha uma opção: Fim de entrada de dados (R-EOF): pt.tecnico.uilib.text.RuntimeEOFException: Fim do fluxo de dados de entrada
+! Escolha uma opção: Saldo disponível: -600
+! Saldo contabilístico: -600
+  Menu Principal
+  1 - Abrir
+  2 - Guardar

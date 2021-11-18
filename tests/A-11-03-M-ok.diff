@@ -1,27 +1,19 @@
 *** tests/A-11-03-M-ok.out	2021-11-17 12:10:08.582594676 +0000
---- tests/A-11-03-M-ok.outhyp	2021-11-18 16:50:59.085472501 +0000
+--- tests/A-11-03-M-ok.outhyp	2021-11-18 16:54:42.265702066 +0000
 ***************
-*** 16,30 ****
+*** 23,29 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: COMPRA|0|M1|GARRAFA|1000|70000|0
-! Gestão de Transacções
+  Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
-  3 - Registar venda
---- 16,22 ----
+--- 23,29 ----
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Registar receita? Gestão de Transacções
+! Escolha uma opção: Identificador da transacção: COMPRA|0|M1|GARRAFA|1000|70|0
+  Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
-  3 - Registar venda

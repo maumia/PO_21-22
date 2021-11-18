@@ -1,42 +1,45 @@
 *** tests/A-16-04-M-ok.out	2021-11-17 12:10:08.586594659 +0000
---- tests/A-16-04-M-ok.outhyp	2021-11-18 16:51:03.829400678 +0000
+--- tests/A-16-04-M-ok.outhyp	2021-11-18 16:54:48.045594118 +0000
 ***************
-*** 16,37 ****
+*** 23,29 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: COMPRA|0|S1|SAL|50|300|0
-! Gestão de Transacções
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+--- 23,29 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador da transacção: COMPRA|0|S1|SAL|50|6|0
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+***************
+*** 31,82 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
+! Escolha uma opção: Identificador da transacção: Gestão de Transacções
 ! 1 - Visualizar
 ! 2 - Registar desagregação
 ! 3 - Registar venda
 ! 4 - Registar compra
 ! 5 - Receber pagamento de venda
 ! 0 - Sair
-! Escolha uma opção: Identificador da transacção: Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
---- 16,22 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Registar receita? Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-***************
-*** 49,72 ****
-  8 - Menu de Consultas
-  9 - Ver Saldo Global
-  0 - Sair
+! Escolha uma opção: Menu Principal
+! 1 - Abrir
+! 2 - Guardar
+! 3 - Mostrar Data
+! 4 - Avançar Data
+! 5 - Gestão de Produtos
+! 6 - Gestão de Parceiros
+! 7 - Gestão de Transacções
+! 8 - Menu de Consultas
+! 9 - Ver Saldo Global
+! 0 - Sair
 ! Escolha uma opção: Gestão de Parceiros
 ! 1 - Mostrar parceiro
 ! 2 - Mostrar parceiros
@@ -55,18 +58,23 @@
 ! 4 - Activa/desactivar notificações de um produto
 ! 5 - Mostrar compras com parceiro
 ! 6 - Mostrar vendas (e desagregações) com parceiro
+! 0 - Sair
+! Escolha uma opção: Menu Principal
+! 1 - Abrir
+! 2 - Guardar
+! 3 - Mostrar Data
+! 4 - Avançar Data
+! 5 - Gestão de Produtos
+! 6 - Gestão de Parceiros
+! 7 - Gestão de Transacções
+! 8 - Menu de Consultas
+! 9 - Ver Saldo Global
+! 0 - Sair
+! Escolha uma opção: 
+\ No newline at end of file
+--- 31,34 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
   0 - Sair
-  Escolha uma opção: Menu Principal
-  1 - Abrir
---- 34,44 ----
-  8 - Menu de Consultas
-  9 - Ver Saldo Global
-  0 - Sair
-! Escolha uma opção: Gestão de Produtos
-! 1 - Visualizar todos os produtos
-! 2 - Visualizar todos os lotes
-! 3 - Visualizar lotes fornecidos por parceiro
-! 4 - Visualizar lotes de um dado produto
-  0 - Sair
-  Escolha uma opção: Menu Principal
-  1 - Abrir
+! Escolha uma opção: Identificador da transacção: 
+\ No newline at end of file
