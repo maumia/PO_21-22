@@ -248,6 +248,8 @@ public class Warehouse implements Serializable {
           product.setPrice(p.getPrice());
           product.addStock(amount);
         }
+        else
+          product.addStock(amount);
       }
       else
       _products.add(p);
