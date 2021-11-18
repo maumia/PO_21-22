@@ -95,7 +95,6 @@ public abstract class Product implements Serializable{
     */
     void addBatch(Batch batch) {
         _batches.add(batch);
-        _stock += batch.getBatchStock();
         checkPrice(batch);
         checkLowPrice(batch);
     }
