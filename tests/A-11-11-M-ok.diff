@@ -1,48 +1,63 @@
 *** tests/A-11-11-M-ok.out	2021-10-26 19:36:30.487098000 +0100
---- tests/A-11-11-M-ok.outhyp	2021-11-18 20:46:58.945527416 +0000
+--- tests/A-11-11-M-ok.outhyp	2021-11-18 20:59:58.131088575 +0000
 ***************
-*** 105,129 ****
+*** 105,112 ****
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|80|2100|VIDRO:1#ROLHA:1
-! ROLHA|100|620
-! VIDRO|100|560
+  ROLHA|100|620
+  VIDRO|100|560
   Gestão de Produtos
   1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
+--- 105,118 ----
+  3 - Visualizar lotes fornecidos por parceiro
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+! Escolha uma opção: GARRAFA|80|2100|nullVIDRO:1#ROLHA:1
+! GARRAFA|80|2100|nullVIDRO:1#ROLHA:1
+! GARRAFA|80|2100|nullVIDRO:1#ROLHA:1
+  ROLHA|100|620
++ ROLHA|100|620
++ ROLHA|100|620
++ VIDRO|100|560
++ VIDRO|100|560
+  VIDRO|100|560
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+***************
+*** 114,129 ****
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|M1|40|50
 ! GARRAFA|S1|20|50
-! GARRAFA|S1|50|1000
+  GARRAFA|S1|50|1000
   GARRAFA|S1|80|1000
 - ROLHA|M1|10|100
   ROLHA|M1|20|500
-- ROLHA|S1|100|20
+! ROLHA|S1|100|20
   VIDRO|M1|30|500
 - VIDRO|M1|40|50
 - VIDRO|M2|100|10
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
---- 105,123 ----
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: GARRAFA|80|32500|nullVIDRO:1#ROLHA:1
-! ROLHA|100|8840
-! VIDRO|100|8180
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
-  2 - Visualizar todos os lotes
+--- 120,137 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|S1|50|1000
+  GARRAFA|S1|50|1000
++ GARRAFA|S1|50|1000
++ GARRAFA|S1|80|1000
++ GARRAFA|S1|80|1000
   GARRAFA|S1|80|1000
   ROLHA|M1|20|500
+! ROLHA|M1|20|500
+! ROLHA|M1|20|500
+! VIDRO|M1|30|500
+! VIDRO|M1|30|500
   VIDRO|M1|30|500
   Gestão de Produtos
   1 - Visualizar todos os produtos
@@ -52,9 +67,17 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
   Escolha uma opção: Identificador do produto: VIDRO|M1|30|500
-- VIDRO|M1|40|50
-- VIDRO|M2|100|10
+! VIDRO|M1|40|50
+! VIDRO|M2|100|10
   Gestão de Produtos
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
---- 125,130 ----
+--- 139,146 ----
+  4 - Visualizar lotes de um dado produto
+  0 - Sair
+  Escolha uma opção: Identificador do produto: VIDRO|M1|30|500
+! VIDRO|M1|30|500
+! VIDRO|M1|30|500
+  Gestão de Produtos
+  1 - Visualizar todos os produtos
+  2 - Visualizar todos os lotes

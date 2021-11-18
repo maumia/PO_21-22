@@ -1,5 +1,5 @@
 *** tests/A-11-05-M-ok.out	2021-10-21 22:33:00.626383000 +0100
---- tests/A-11-05-M-ok.outhyp	2021-11-18 20:46:58.213566120 +0000
+--- tests/A-11-05-M-ok.outhyp	2021-11-18 20:59:57.335106453 +0000
 ***************
 *** 16,29 ****
   4 - Registar compra
@@ -47,7 +47,7 @@
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
-! PAPEL|12|10000
+! PAPEL|12|6000
   ROLHA|20|500
   VIDRO|30|500
   Gestão de Produtos

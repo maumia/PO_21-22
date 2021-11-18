@@ -1,5 +1,5 @@
 *** tests/A-11-04-M-ok.out	2021-10-21 19:36:19.803330000 +0100
---- tests/A-11-04-M-ok.outhyp	2021-11-18 20:46:58.085572887 +0000
+--- tests/A-11-04-M-ok.outhyp	2021-11-18 20:59:57.199109507 +0000
 ***************
 *** 42,48 ****
   5 - Mostrar compras com parceiro
@@ -18,20 +18,24 @@
   1 - Mostrar parceiro
   2 - Mostrar parceiros
 ***************
-*** 96,103 ****
+*** 96,104 ****
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|M1|70|1000
-! GARRAFA|S1|50|1000
+  GARRAFA|S1|50|1000
   GARRAFA|S1|80|1000
   ROLHA|M1|20|500
   VIDRO|M1|30|500
---- 96,102 ----
+  Gestão de Produtos
+--- 96,105 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
 ! Escolha uma opção: GARRAFA|S1|50|1000
+  GARRAFA|S1|50|1000
   GARRAFA|S1|80|1000
++ GARRAFA|S1|80|1000
   ROLHA|M1|20|500
   VIDRO|M1|30|500
+  Gestão de Produtos
