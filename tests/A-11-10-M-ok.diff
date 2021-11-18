@@ -1,5 +1,5 @@
 *** tests/A-11-10-M-ok.out	2021-11-17 12:10:08.582594676 +0000
---- tests/A-11-10-M-ok.outhyp	2021-11-18 16:54:43.269683300 +0000
+--- tests/A-11-10-M-ok.outhyp	2021-11-18 17:12:21.387856996 +0000
 ***************
 *** 40,46 ****
   3 - Visualizar lotes fornecidos por parceiro
@@ -18,40 +18,67 @@
   VIDRO|30|500
   Gestão de Produtos
 ***************
-*** 74,80 ****
+*** 67,122 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: COMPRA|1|S1|ROLHA|10|90|0
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
---- 74,80 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador da transacção: COMPRA|1|S1|ROLHA|10|9|0
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-***************
-*** 99,106 ****
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Menu Principal
+! 1 - Abrir
+! 2 - Guardar
+! 3 - Mostrar Data
+! 4 - Avançar Data
+! 5 - Gestão de Produtos
+! 6 - Gestão de Parceiros
+! 7 - Gestão de Transacções
+! 8 - Menu de Consultas
+! 9 - Ver Saldo Global
+! 0 - Sair
+! Escolha uma opção: Gestão de Produtos
+! 1 - Visualizar todos os produtos
+! 2 - Visualizar todos os lotes
+! 3 - Visualizar lotes fornecidos por parceiro
+! 4 - Visualizar lotes de um dado produto
+! 0 - Sair
 ! Escolha uma opção: GARRAFA|80|2000|VIDRO:1#ROLHA:1
 ! ROLHA|10|10
-  VIDRO|30|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
---- 99,108 ----
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
+! VIDRO|30|500
+! Gestão de Produtos
+! 1 - Visualizar todos os produtos
+! 2 - Visualizar todos os lotes
+! 3 - Visualizar lotes fornecidos por parceiro
+! 4 - Visualizar lotes de um dado produto
+! 0 - Sair
+! Escolha uma opção: Menu Principal
+! 1 - Abrir
+! 2 - Guardar
+! 3 - Mostrar Data
+! 4 - Avançar Data
+! 5 - Gestão de Produtos
+! 6 - Gestão de Parceiros
+! 7 - Gestão de Transacções
+! 8 - Menu de Consultas
+! 9 - Ver Saldo Global
+! 0 - Sair
+! Escolha uma opção: 
+\ No newline at end of file
+--- 67,70 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: GARRAFA|80|2000|nullVIDRO:1#ROLHA:1
-! ROLHA|10|0
-! ROLHA|10|0
-! ROLHA|9|10
-  VIDRO|30|500
-  Gestão de Produtos
-  1 - Visualizar todos os produtos
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: 
+\ No newline at end of file

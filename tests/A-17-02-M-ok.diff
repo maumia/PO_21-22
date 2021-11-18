@@ -1,19 +1,70 @@
 *** tests/A-17-02-M-ok.out	2021-11-17 12:10:08.586594659 +0000
---- tests/A-17-02-M-ok.outhyp	2021-11-18 16:54:48.397587552 +0000
+--- tests/A-17-02-M-ok.outhyp	2021-11-18 17:12:26.487775899 +0000
 ***************
-*** 50,56 ****
-  5 - Mostrar compras com parceiro
-  6 - Mostrar vendas (e desagregações) com parceiro
+*** 16,74 ****
+  4 - Registar compra
+  5 - Receber pagamento de venda
   0 - Sair
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Menu Principal
+! 1 - Abrir
+! 2 - Guardar
+! 3 - Mostrar Data
+! 4 - Avançar Data
+! 5 - Gestão de Produtos
+! 6 - Gestão de Parceiros
+! 7 - Gestão de Transacções
+! 8 - Menu de Consultas
+! 9 - Ver Saldo Global
+! 0 - Sair
+! Escolha uma opção: Gestão de Parceiros
+! 1 - Mostrar parceiro
+! 2 - Mostrar parceiros
+! 3 - Registar parceiro
+! 4 - Activa/desactivar notificações de um produto
+! 5 - Mostrar compras com parceiro
+! 6 - Mostrar vendas (e desagregações) com parceiro
+! 0 - Sair
+! Escolha uma opção: Identificador do parceiro: Gestão de Parceiros
+! 1 - Mostrar parceiro
+! 2 - Mostrar parceiros
+! 3 - Registar parceiro
+! 4 - Activa/desactivar notificações de um produto
+! 5 - Mostrar compras com parceiro
+! 6 - Mostrar vendas (e desagregações) com parceiro
+! 0 - Sair
 ! Escolha uma opção: Identificador do parceiro: COMPRA|0|M1|SAL|23|529|0
-  Gestão de Parceiros
-  1 - Mostrar parceiro
-  2 - Mostrar parceiros
---- 50,56 ----
-  5 - Mostrar compras com parceiro
-  6 - Mostrar vendas (e desagregações) com parceiro
+! Gestão de Parceiros
+! 1 - Mostrar parceiro
+! 2 - Mostrar parceiros
+! 3 - Registar parceiro
+! 4 - Activa/desactivar notificações de um produto
+! 5 - Mostrar compras com parceiro
+! 6 - Mostrar vendas (e desagregações) com parceiro
+! 0 - Sair
+! Escolha uma opção: Menu Principal
+! 1 - Abrir
+! 2 - Guardar
+! 3 - Mostrar Data
+! 4 - Avançar Data
+! 5 - Gestão de Produtos
+! 6 - Gestão de Parceiros
+! 7 - Gestão de Transacções
+! 8 - Menu de Consultas
+! 9 - Ver Saldo Global
+! 0 - Sair
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: 
+\ No newline at end of file
+--- 16,19 ----
+  4 - Registar compra
+  5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: COMPRA|0|M1|SAL|23|23|0
-  Gestão de Parceiros
-  1 - Mostrar parceiro
-  2 - Mostrar parceiros
+! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: 
+\ No newline at end of file
