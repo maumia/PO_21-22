@@ -92,7 +92,7 @@ public class Warehouse implements Serializable {
             _products.get(i).setPrice(product.getPrice());
         }
       }
-     else
+    else
       _products.add(product);
   }
 
