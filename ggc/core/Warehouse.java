@@ -88,8 +88,13 @@ public class Warehouse implements Serializable {
     if(_products.contains(product))
       for(int i=0; i < _products.size(); i++){
         if(_products.get(i).getProductId().equals(product.getProductId())){
-          if(_products.get(i).getPrice() < product.getPrice())
+          if(_products.get(i).getPrice() < product.getPrice()){
             _products.get(i).setPrice(product.getPrice());
+            _products.get(i).addStock(product.getStock());
+        }
+          else
+            _products.get(i).addStock(product.getStock());
+
         }
       }
     else
