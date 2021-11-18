@@ -1,5 +1,5 @@
-*** tests/A-19-03-M-ok.out	2021-11-17 12:10:08.586594659 +0000
---- tests/A-19-03-M-ok.outhyp	2021-11-18 17:13:38.750628904 +0000
+*** tests/A-19-03-M-ok.out	Fri Nov  5 10:16:36 2021
+--- tests/A-19-03-M-ok.outhyp	Wed Nov 17 12:12:05 2021
 ***************
 *** 55,67 ****
   3 - Visualizar lotes fornecidos por parceiro

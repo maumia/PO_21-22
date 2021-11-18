@@ -1,5 +1,5 @@
-*** tests/A-11-10-M-ok.out	2021-11-17 12:10:08.582594676 +0000
---- tests/A-11-10-M-ok.outhyp	2021-11-18 17:13:31.434744853 +0000
+*** tests/A-11-10-M-ok.out	Tue Oct 26 19:26:21 2021
+--- tests/A-11-10-M-ok.outhyp	Thu Nov 18 17:13:22 2021
 ***************
 *** 40,46 ****
   3 - Visualizar lotes fornecidos por parceiro

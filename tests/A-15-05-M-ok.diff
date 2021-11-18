@@ -1,25 +1,25 @@
-*** tests/A-15-05-M-ok.out	2021-11-17 12:10:08.586594659 +0000
---- tests/A-15-05-M-ok.outhyp	2021-11-18 17:13:35.006688238 +0000
+*** tests/A-15-05-M-ok.out	Sun Oct 31 21:59:41 2021
+--- tests/A-15-05-M-ok.outhyp	Wed Nov 17 12:12:05 2021
 ***************
 *** 16,114 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
 ! Escolha uma opção: Identificador do parceiro: Identificador do produto: Quantidade: Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador da transacção: DESAGREGAÇÃO|0|R1|GARRAFA|5|90|90|0|ROLHA:5:10#SAL:25:400#VIDRO:50:500
-! Gestão de Transacções
 ! 1 - Visualizar
 ! 2 - Registar desagregação
 ! 3 - Registar venda
 ! 4 - Registar compra
 ! 5 - Receber pagamento de venda
 ! 0 - Sair
+! Escolha uma opção: Identificador da transacção: DESAGREGAÇÃO|0|R1|GARRAFA|5|90|90|0|ROLHA:5:10#SAL:25:400#VIDRO:50:500
+! Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+  3 - Registar venda
+  4 - Registar compra
+  5 - Receber pagamento de venda
+  0 - Sair
 ! Escolha uma opção: Menu Principal
 ! 1 - Abrir
 ! 2 - Guardar
