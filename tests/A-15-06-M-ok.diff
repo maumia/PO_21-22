@@ -1,5 +1,5 @@
 *** tests/A-15-06-M-ok.out	2021-10-31 22:20:20.042622000 +0000
---- tests/A-15-06-M-ok.outhyp	2021-11-19 13:59:07.185470864 +0000
+--- tests/A-15-06-M-ok.outhyp	2021-11-19 14:39:21.558792972 +0000
 ***************
 *** 16,22 ****
   4 - Registar compra
@@ -26,20 +26,3 @@
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
-***************
-*** 41,47 ****
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: GARRAFA|200|5|ROLHA:1#SAL:5#VIDRO:10
-  HIDROGENIO|200|5000
-  ROLHA|2|500
-  SAL|16|500
---- 50,56 ----
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: GARRAFA|200|5|nullROLHA:1#SAL:5#VIDRO:10
-  HIDROGENIO|200|5000
-  ROLHA|2|500
-  SAL|16|500

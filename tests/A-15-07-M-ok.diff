@@ -1,22 +1,5 @@
 *** tests/A-15-07-M-ok.out	2021-10-31 22:37:40.682736000 +0000
---- tests/A-15-07-M-ok.outhyp	2021-11-19 13:59:07.317468951 +0000
-***************
-*** 54,60 ****
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: GARRAFA|200|5|ROLHA:1#SAL:5#VIDRO:10
-  HIDROGENIO|200|5000
-  ROLHA|2|0
-  SAL|16|0
---- 54,60 ----
-  3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: GARRAFA|200|5|nullROLHA:1#SAL:5#VIDRO:10
-  HIDROGENIO|200|5000
-  ROLHA|2|0
-  SAL|16|0
+--- tests/A-15-07-M-ok.outhyp	2021-11-19 14:39:21.702790654 +0000
 ***************
 *** 83,96 ****
   4 - Registar compra

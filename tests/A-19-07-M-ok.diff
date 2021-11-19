@@ -1,5 +1,5 @@
 *** tests/A-19-07-M-ok.out	2021-11-11 09:51:24.671709000 +0000
---- tests/A-19-07-M-ok.outhyp	2021-11-19 13:59:11.053414029 +0000
+--- tests/A-19-07-M-ok.outhyp	2021-11-19 14:39:24.754741528 +0000
 ***************
 *** 16,22 ****
   4 - Registar compra
@@ -77,7 +77,7 @@
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
-! Escolha uma opção: GARRAFA|13|1|nullROLHA:10#VIDRO:5
+! Escolha uma opção: GARRAFA|13|1|ROLHA:10#VIDRO:5
 ! ROLHA|2|75
   SAL|40|500
 ! VIDRO|3|25

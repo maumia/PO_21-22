@@ -1,7 +1,7 @@
 *** tests/A-19-03-M-ok.out	2021-11-05 10:16:36.233758000 +0000
---- tests/A-19-03-M-ok.outhyp	2021-11-19 13:59:10.425423368 +0000
+--- tests/A-19-03-M-ok.outhyp	2021-11-19 14:39:24.298748871 +0000
 ***************
-*** 55,67 ****
+*** 55,61 ****
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
@@ -9,13 +9,7 @@
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
   3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: GARRAFA|10|500|ROLHA:1#VIDRO:2
-  ROLHA|2|50
-  SAL|100|500
-  VIDRO|1|0
---- 55,68 ----
+--- 55,62 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
@@ -24,12 +18,6 @@
   1 - Visualizar todos os produtos
   2 - Visualizar todos os lotes
   3 - Visualizar lotes fornecidos por parceiro
-  4 - Visualizar lotes de um dado produto
-  0 - Sair
-! Escolha uma opção: GARRAFA|10|500|nullROLHA:1#VIDRO:2
-  ROLHA|2|50
-  SAL|100|500
-  VIDRO|1|0
 ***************
 *** 90,98 ****
   5 - Mostrar compras com parceiro
