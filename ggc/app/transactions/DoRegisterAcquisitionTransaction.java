@@ -5,11 +5,13 @@ import pt.tecnico.uilib.menus.CommandException;
 import pt.tecnico.uilib.forms.Form;
 import ggc.core.Component;
 import ggc.core.WarehouseManager;
+import ggc.app.exception.UnknownProductKeyException;
+import ggc.app.exception.UnknownPartnerKeyException;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ggc.app.exception.UnknownPartnerKeyException;
+
 
 /**
  * Register order.
@@ -27,7 +29,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
   }
 
   @Override
-  public final void execute() throws CommandException {
+  public final void execute() throws CommandException,UnknownProductKeyException,UnknownPartnerKeyException{
     _form.parse();
     Form _fform = new Form();
     String _partnerId = _form.stringField("_partnerId");
@@ -56,16 +58,20 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
             _pForm.addStringField("_productId", Message.requestProductKey());
             _pForm.addIntegerField("_amount", Message.requestPrice());
             _pForm.parse();
-            ids[i] = _pForm.stringField("_productId");
-            amounts[i] = _pForm.integerField("_amount");
+            if(_receiver.checkProduct(_pForm.stringField("_productId"))){
+              ids[i] = _pForm.stringField("_productId");
+              amounts[i] = _pForm.integerField("_amount");
+            }
+            else
+              throw new UnknownProductKeyException(_pForm.stringField("_productId"));
           }
           _receiver.registerAggregateAcquisition(_partnerId, _productId, _price, _amount, ids, amounts, Double.valueOf(_alpha));
 
           
 
 
-
-        } 
+        
+      } 
           
       }
       else
