@@ -151,11 +151,6 @@ public class WarehouseManager {
   public void registerAggregateAcquisition(String partnerId, String productId, Double price, int amount, String[] components, int[] quantities, Double aggravation) throws UnknownProductKeyException, UnknownPartnerKeyException {
     _warehouse.registerAggregateAcquisition(partnerId, productId, price, amount, components, quantities, aggravation);
   }
-  /*
-  public void registerBatchAcquisition(String productId, double price, int stock, String partnerId) {
-    _warehouse.registerBatchAcquisition(productId, price, stock, partnerId);
-  }
-  */
 
   public Collection<String> showPaidTransactions(String id){
     return _warehouse.ShowPaidTransactions(id);
