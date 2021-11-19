@@ -242,8 +242,8 @@ public class Warehouse implements Serializable {
   protected void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount) {
     Product p = new SimpleProduct(productId, partnerId, price);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
-    if((getProduct(productId) instanceof SimpleProduct) == true){
       if(checkProduct(p.getProductId()) == true){
+        if((getProduct(productId) instanceof SimpleProduct) == true){
         Product var = getProduct(p.getProductId());
         var.addBatch(b);
         if (var.getPrice() < p.getPrice())
