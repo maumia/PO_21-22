@@ -3,7 +3,7 @@ import java.io.Serializable;
 
 public abstract class Transaction implements Serializable {
         private int _id;
-        private Date _paymentDate;
+        private static  Date _paymentDate;
         private Double _baseValue;
         private int _quantity;
         private Product _product;
