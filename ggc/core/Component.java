@@ -5,7 +5,7 @@ public class Component {
     private String _id;
     private int _quantity;
 
-    Component(String id, int quantity) {
+    public Component(String id, int quantity) {
         _id = id;
         _quantity = quantity;
     }
