@@ -324,7 +324,7 @@ public class Warehouse implements Serializable {
     _transactions.add(saleByCredit);
     _salesByCredict.add(saleByCredit);
     _transactionId++;
-    _contabilisticBalance += baseValue;
+    _contabilisticBalance += baseValue*quantity;
   }
 
   protected int getStockProduct(String id) throws  UnknownProductKeyException {
