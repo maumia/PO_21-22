@@ -1,5 +1,5 @@
 *** tests/A-20-06-M-ok.out	2021-11-11 10:05:58.329349000 +0000
---- tests/A-20-06-M-ok.outhyp	2021-11-19 18:50:54.032855738 +0000
+--- tests/A-20-06-M-ok.outhyp	2021-11-19 19:01:05.794207423 +0000
 ***************
 *** 23,29 ****
   4 - Registar compra
@@ -13,7 +13,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|M1|VIDRO|202|202|0|10|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|M1|VIDRO|202|202|202|10
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -30,7 +30,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|M1|VIDRO|202|202|0|10|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|M1|VIDRO|202|202|0|10
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação

@@ -1,22 +1,5 @@
 *** tests/A-16-02-M-ok.out	2021-11-01 17:09:50.099477000 +0000
---- tests/A-16-02-M-ok.outhyp	2021-11-19 18:50:49.800930210 +0000
-***************
-*** 52,58 ****
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|5|25|25|10
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
---- 52,58 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|5|25|4|10|0
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
+--- tests/A-16-02-M-ok.outhyp	2021-11-19 19:01:02.178269899 +0000
 ***************
 *** 67,73 ****
   4 - Registar compra
@@ -30,7 +13,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|5|25|5|10|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|5|25|5|10
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação

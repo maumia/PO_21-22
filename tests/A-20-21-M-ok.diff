@@ -1,5 +1,5 @@
 *** tests/A-20-21-M-ok.out	2021-11-11 23:26:21.693902000 +0000
---- tests/A-20-21-M-ok.outhyp	2021-11-19 18:50:56.904805202 +0000
+--- tests/A-20-21-M-ok.outhyp	2021-11-19 19:01:08.406162297 +0000
 ***************
 *** 34,40 ****
   4 - Registar compra
@@ -13,7 +13,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|1|M1|SAL|10|1000|90|7|0
+! Escolha uma opção: Identificador da transacção: VENDA|1|M1|SAL|10|1000|1000|7
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -30,7 +30,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|1|M1|SAL|10|1000|90|7|0
+! Escolha uma opção: Identificador da transacção: VENDA|1|M1|SAL|10|1000|90|7
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -64,7 +64,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|2|M1|SAL|10|1000|90|4|0
+! Escolha uma opção: Identificador da transacção: VENDA|2|M1|SAL|10|1000|1000|4
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -81,7 +81,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|2|M1|SAL|10|1000|100|4|0
+! Escolha uma opção: Identificador da transacção: VENDA|2|M1|SAL|10|1000|100|4
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
