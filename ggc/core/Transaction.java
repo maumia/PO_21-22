@@ -3,7 +3,7 @@ import java.io.Serializable;
 
 public abstract class Transaction implements Serializable {
         private int _id;
-        private static  Date _paymentDate;
+        private static  int _paymentDate;
         private Double _baseValue;
         private int _quantity;
         private Product _product;
@@ -14,7 +14,7 @@ public abstract class Transaction implements Serializable {
         */
         private static final long serialVersionUID = 202109192006L;
 
-        Transaction(int id, Date paymentDate, Double baseValue, int quantity, Product product, Partner partner) {
+        Transaction(int id, int paymentDate, Double baseValue, int quantity, Product product, Partner partner) {
             _id = id;
             _paymentDate = paymentDate;
             _baseValue = baseValue;
@@ -27,11 +27,11 @@ public abstract class Transaction implements Serializable {
                 return _id;
         }
 
-        void setPaymentDate(Date paymentDate) {
+        void setPaymentDate(int paymentDate) {
                 _paymentDate = paymentDate;
         }
 
-        Date getPaymentDate(){
+        int getPaymentDate(){
                 return _paymentDate;
         }
 

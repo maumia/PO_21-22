@@ -5,7 +5,7 @@ import java.util.Collection;
 
 public class Breakdown extends Transaction{
     private ArrayList<Component> _components = new ArrayList<Component>();
-    Breakdown(int id, Date paymentDate, Double baseValue, int quantity, Product product, Partner partner,ArrayList<Component> components){
+    Breakdown(int id, int paymentDate, Double baseValue, int quantity, Product product, Partner partner,ArrayList<Component> components){
         super(id, paymentDate, baseValue, quantity, product, partner);
         _components = components;
     }
