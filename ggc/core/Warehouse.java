@@ -246,9 +246,7 @@ public class Warehouse implements Serializable {
   protected void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount) throws UnknownPartnerKeyException, UnknownProductKeyException{
     Product p = new SimpleProduct(productId, partnerId, price);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
-    Date d = new Date();
     final int j = getCurrentDate();
-    d.setDays(j);
       if(checkProduct(p.getProductId()) == true){
         if((getProduct(productId) instanceof SimpleProduct) == true){
           Product var = getProduct(p.getProductId());
@@ -293,14 +291,12 @@ public class Warehouse implements Serializable {
 
     Product p = new AggregateProduct(productId, partnerId, price, aggravation, _recipe);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
-    Date d = new Date();
     final int j = getCurrentDate();
-    d.setDays(j);
     addAggregateProduct(p);
     p.addBatch(b);
     
 
-    Acquisition acquisition = new Acquisition(_transactionId, d, price, amount, getProduct(productId), getPartner(partnerId));
+    Acquisition acquisition = new Acquisition(_transactionId, j, price, amount, getProduct(productId), getPartner(partnerId));
     getPartner(partnerId).addPartnerShoppingValue(price * amount);
     _transactions.add(acquisition);
     _acquisitions.add(acquisition);
