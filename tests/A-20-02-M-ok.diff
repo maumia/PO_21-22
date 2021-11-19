@@ -1,5 +1,5 @@
 *** tests/A-20-02-M-ok.out	2021-11-09 22:52:25.749851000 +0000
---- tests/A-20-02-M-ok.outhyp	2021-11-19 17:21:29.259889121 +0000
+--- tests/A-20-02-M-ok.outhyp	2021-11-19 17:51:57.647201364 +0000
 ***************
 *** 30,36 ****
   4 - Registar compra
@@ -13,41 +13,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|M1|GARRAFA|1|0|0|2|0
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-***************
-*** 52,58 ****
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|M1|GARRAFA|1|100|100|2|0
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
---- 52,58 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|M1|GARRAFA|1|0|0|2|0
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-***************
-*** 60,66 ****
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|1|M2|GARRAFA|1|100|90|6|0
-  Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
---- 60,66 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|1|M2|GARRAFA|1|0|0|6|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|M1|GARRAFA|1|100|0|2|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -64,7 +30,7 @@
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|0|0|0
+! Escolha uma opção: Identificador do parceiro: M1|Rohit Figueiredo|New Delhi, India|NORMAL|1000|0|0|0
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
@@ -82,8 +48,8 @@
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
-! Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|0|0|0
-! M2|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
+! Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|1000|0|0|0
+! M2|Toshiba|Tokyo, Japan|NORMAL|900|0|0|0
   S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
   Gestão de Parceiros
   1 - Mostrar parceiro

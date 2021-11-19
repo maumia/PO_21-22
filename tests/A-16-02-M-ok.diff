@@ -1,5 +1,5 @@
 *** tests/A-16-02-M-ok.out	2021-11-01 17:09:50.099477000 +0000
---- tests/A-16-02-M-ok.outhyp	2021-11-19 17:21:25.955944427 +0000
+--- tests/A-16-02-M-ok.outhyp	2021-11-19 17:51:54.591254135 +0000
 ***************
 *** 52,58 ****
   4 - Registar compra
@@ -13,7 +13,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|5|0|0|10|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|5|25|0|10|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -30,7 +30,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|5|0|0|10|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|5|25|5|10|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -47,7 +47,7 @@
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
+! Escolha uma opção: Identificador do parceiro: S1|Toshiba|Tokyo, Japan|NORMAL|50|0|0|0
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros

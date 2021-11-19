@@ -1,5 +1,5 @@
 *** tests/A-16-03-M-ok.out	2021-11-01 17:27:24.282421000 +0000
---- tests/A-16-03-M-ok.outhyp	2021-11-19 17:21:26.095942084 +0000
+--- tests/A-16-03-M-ok.outhyp	2021-11-19 17:51:54.715251994 +0000
 ***************
 *** 71,77 ****
   4 - Registar compra
@@ -13,7 +13,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|6|0|0|10|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|6|30|5|10|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -30,7 +30,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|6|0|0|10|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|S1|SAL|6|30|5|10|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -48,8 +48,8 @@
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
-! Escolha uma opção: Saldo disponível: 0
-! Saldo contabilístico: 0
+! Escolha uma opção: Saldo disponível: 10
+! Saldo contabilístico: 5
   Menu Principal
   1 - Abrir
   2 - Guardar
@@ -66,7 +66,7 @@
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
+! Escolha uma opção: Identificador do parceiro: S1|Toshiba|Tokyo, Japan|NORMAL|100|0|0|0
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros
@@ -83,7 +83,7 @@
   0 - Sair
   Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|0|0|0|0
   R1|António Figueiredo|Lisboa|NORMAL|0|0|0|0
-! S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
+! S1|Toshiba|Tokyo, Japan|NORMAL|100|0|0|0
   Gestão de Parceiros
   1 - Mostrar parceiro
   2 - Mostrar parceiros

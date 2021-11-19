@@ -1,5 +1,5 @@
 *** tests/A-12-06-M-ok.out	2021-11-12 10:10:35.546290000 +0000
---- tests/A-12-06-M-ok.outhyp	2021-11-19 17:21:22.136008369 +0000
+--- tests/A-12-06-M-ok.outhyp	2021-11-19 17:51:51.195312782 +0000
 ***************
 *** 69,76 ****
   8 - Menu de Consultas
@@ -14,8 +14,8 @@
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
-! Escolha uma opção: Saldo disponível: 0
-! Saldo contabilístico: 0
+! Escolha uma opção: Saldo disponível: 8
+! Saldo contabilístico: 15
   Menu Principal
   1 - Abrir
   2 - Guardar
@@ -33,8 +33,8 @@
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
-! Escolha uma opção: Saldo disponível: 0
-! Saldo contabilístico: 0
+! Escolha uma opção: Saldo disponível: 13
+! Saldo contabilístico: 15
   Menu Principal
   1 - Abrir
   2 - Guardar
@@ -51,7 +51,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|1|M2|GARRAFA|10|0|0|2|0
+! Escolha uma opção: Identificador da transacção: VENDA|1|M2|GARRAFA|10|50|5|2|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -68,7 +68,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|M1|ROLHA|10|0|0|1|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|M1|ROLHA|10|20|0|1|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
