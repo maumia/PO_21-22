@@ -4,12 +4,14 @@ import pt.tecnico.uilib.Dialog;
 import pt.tecnico.uilib.menus.Menu;
 import ggc.core.WarehouseManager;
 import ggc.core.exception.ImportFileException;
+import ggc.app.exception.UnknownPartnerKeyException;
+import ggc.app.exception.UnknownProductKeyException;
 
 /** Main driver for the management application. */
 public class App {
 
   /** @param args command line arguments. */
-  public static void main(String[] args) {
+  public static void main(String[] args) throws UnknownProductKeyException, UnknownPartnerKeyException{
     try (var ui = Dialog.UI) {
       WarehouseManager manager = new WarehouseManager();
 
