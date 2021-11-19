@@ -84,6 +84,6 @@ public class SaleByCredit extends Sale {
 
     @Override
     public String toString(){
-        return super.toString() + "|" + getValueToPay() + "|" + getDeadline() + "|" + getPaymentDate().getCurrentDate();
+        return super.toString() + "|" + getValueToPay() + "|" + getDeadline().getCurrentDate() + "|" + getPaymentDate().getCurrentDate();
     }
 }

@@ -296,24 +296,6 @@ public class Warehouse implements Serializable {
     _availableBalance -= price * amount;
     _contabilisticBalance -= price * amount;
   }
-/*
-  protected void registerBatchAcquisition(String productId, double price, int stock, String partnerId) {
-    Product product = getProduct(productId);
-    Batch batch = new Batch(product, price, stock, getPartner(partnerId));
-    product.addBatch(batch);
-    Acquisition acquisition = new Acquisition(_transactionId, _date, price, stock, product, getPartner(partnerId));
-    _transactions.add(acquisition);
-    _transactionId++;
-    _availableBalance -= price;
-    _contabilisticBalance -= price;
-  }
-  
-
-  protected void registerBreakdown(Product product, int amount, Partner partner){
-    
-  }
-  */
-
   protected double getAvailableBalance() {
     return _availableBalance;
   }
