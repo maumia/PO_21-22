@@ -294,10 +294,13 @@ public class Warehouse implements Serializable {
     _availableBalance -= price;
     _contabilisticBalance -= price;
   }
+  
+
+  protected void registerBreakdown(Product product, int amount, Partner partner){
+    
+  }
   */
-
-//  protected void registerBreakdown(Product product, int amount, Partner partner,   )
-
+  
   protected double getAvailableBalance() {
     return _availableBalance;
   }
