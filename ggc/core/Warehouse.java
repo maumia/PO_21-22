@@ -40,7 +40,7 @@ public class Warehouse implements Serializable {
     _salesByCredict = new ArrayList<>();
   }
 
-  void importFile(String filename) throws IOException, BadEntryException, UnknownProductKeyException, UnknownPartnerKeyException   {
+  void importFile(String filename) throws IOException, BadEntryException, UnknownProductKeyException, UnknownPartnerKeyException{
     Parser parser = new Parser(this);
     parser.parseFile(filename);
   }
@@ -317,7 +317,7 @@ public class Warehouse implements Serializable {
     Date date = new Date();
     date.setDays(deadline);
     date.addDate(getCurrentDate());
-
+    
     SaleByCredit saleByCredit = new SaleByCredit(_transactionId, new Date(), baseValue, quantity, product, getPartner(partnerId), date);  
     
     product.setStock(product.getStock() - quantity);
