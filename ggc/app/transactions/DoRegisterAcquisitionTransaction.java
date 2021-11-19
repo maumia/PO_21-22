@@ -51,7 +51,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
           String _alpha = String.valueOf(_comForm.stringField("_alpha"));
           String[] ids = new String[_nComp];
           int[] amounts = new int[_nComp];
-          int i = -1;
+          int i = 0;
           while( i < _nComp){
             Form _pForm = new Form();
             _pForm.addStringField("_productId", Message.requestProductKey());
@@ -60,6 +60,8 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
             ids[i] = _pForm.stringField("_productId");
             amounts[i] = _pForm.integerField("_amount");
             i++;
+            if(i == _nComp)
+              break;
           }
           _receiver.registerAggregateAcquisition(_partnerId, _productId, _price, _amount, ids, amounts, Double.valueOf(_alpha));
         } 
