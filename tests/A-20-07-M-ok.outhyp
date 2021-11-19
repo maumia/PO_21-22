@@ -23,7 +23,7 @@ Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identi
 4 - Registar compra
 5 - Receber pagamento de venda
 0 - Sair
-Escolha uma opção: Identificador da transacção: VENDA|0|M1|SAL|27|2700|0|10|0
+Escolha uma opção: Identificador da transacção: VENDA|0|M1|SAL|27|2700|90|10|0
 Gestão de Transacções
 1 - Visualizar
 2 - Registar desagregação

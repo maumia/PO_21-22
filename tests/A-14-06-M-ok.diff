@@ -1,5 +1,5 @@
 *** tests/A-14-06-M-ok.out	2021-11-01 23:31:18.822047000 +0000
---- tests/A-14-06-M-ok.outhyp	2021-11-19 18:38:29.478386927 +0000
+--- tests/A-14-06-M-ok.outhyp	2021-11-19 18:50:47.924963225 +0000
 ***************
 *** 37,77 ****
   4 - Registar compra
@@ -125,9 +125,9 @@
   1 - Produtos com Preço Abaixo de Limite
   2 - Facturas pagas por parceiro
   0 - Sair
-! Escolha uma opção: Identificador do parceiro: VENDA|0|M1|SAL|2|20|0|3|0
+! Escolha uma opção: Identificador do parceiro: VENDA|0|M1|SAL|2|20|9|3|0
 ! VENDA|1|M1|ROLHA|3|6|2|3|0
-! VENDA|2|M1|HIDROGENIO|4|12|0|3|0
+! VENDA|2|M1|HIDROGENIO|4|12|2|3|0
   Consultas
   1 - Produtos com Preço Abaixo de Limite
   2 - Facturas pagas por parceiro
