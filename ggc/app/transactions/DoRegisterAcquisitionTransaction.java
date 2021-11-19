@@ -49,8 +49,8 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
           _comForm.parse();
           int _nComp = Integer.valueOf(_comForm.stringField("_nCompo"));
           String _alpha = String.valueOf(_comForm.stringField("_alpha"));
-          String[] ids = new String[_nComp];
-          int[] amounts = new int[_nComp];
+          String[] ids = new String[2];
+          int[] amounts = new int[2];
           for(int i = 0; i < _nComp; i++){
             Form _pForm = new Form();
             _pForm.addStringField("_productId", Message.requestProductKey());
