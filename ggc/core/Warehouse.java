@@ -254,6 +254,9 @@ public class Warehouse implements Serializable {
           var.addBatch(b);
           if (var.getPrice() < p.getPrice())
                   var.setPrice(p.getPrice());
+        
+          if (var.getLowPrice() > p.getPrice())
+            var.setLowPrice(p.getPrice());
         }
 
       }

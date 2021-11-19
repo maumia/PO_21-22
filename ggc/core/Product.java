@@ -31,6 +31,7 @@ public abstract class Product implements Serializable{
         _stock = 0;
         _batches = new ArrayList<>();
         _n = n;
+        _lowPrice = price;
     }
 
     String getProductId() {
@@ -54,6 +55,9 @@ public abstract class Product implements Serializable{
     */
     void setPrice(Double price) {
         _price = price;
+    }
+    void setLowPrice(Double price) {
+        _lowPrice = price;
     }
 
     int getStock() {
