@@ -9,7 +9,7 @@ public class SaleByCredit extends Sale {
     
     SaleByCredit(int id, Date paymentDate, Double baseValue, int quantity, Product product, Partner partner, Date deadline) {
         super(id, paymentDate, baseValue, quantity, product, partner);
-        _valueToPay = baseValue;
+        _valueToPay = baseValue*quantity;
         _deadline = deadline;
     }
 
