@@ -247,7 +247,8 @@ public class Warehouse implements Serializable {
     Product p = new SimpleProduct(productId, partnerId, price);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
     Date d = new Date();
-    d.setDays(getCurrentDate());
+    final int j = getCurrentDate();
+    d.setDays(j);
       if(checkProduct(p.getProductId()) == true){
         if((getProduct(productId) instanceof SimpleProduct) == true){
           Product var = getProduct(p.getProductId());
@@ -293,7 +294,8 @@ public class Warehouse implements Serializable {
     Product p = new AggregateProduct(productId, partnerId, price, aggravation, _recipe);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
     Date d = new Date();
-    d.setDays(getCurrentDate());
+    final int j = getCurrentDate();
+    d.setDays(j);
     addAggregateProduct(p);
     p.addBatch(b);
     
