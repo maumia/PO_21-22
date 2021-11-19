@@ -1,10 +1,16 @@
 package ggc.core;
 
-public class Component {
+import java.io.Serializable;
+
+public class Component implements Serializable {
 
     private String _id;
     private int _quantity;
-
+    /**
+    * Serial number for serialization.
+    */
+    private static final long serialVersionUID = 202109192006L;
+    
     public Component(String id, int quantity) {
         _id = id;
         _quantity = quantity;
