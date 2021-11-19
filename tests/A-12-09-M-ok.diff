@@ -1,5 +1,5 @@
 *** tests/A-12-09-M-ok.out	2021-11-12 10:28:52.338636000 +0000
---- tests/A-12-09-M-ok.outhyp	2021-11-19 19:03:01.888203362 +0000
+--- tests/A-12-09-M-ok.outhyp	2021-11-19 19:10:10.092974151 +0000
 ***************
 *** 51,64 ****
   4 - Registar compra
@@ -42,21 +42,19 @@
   1 - Visualizar
   2 - Registar desagregação
 ***************
-*** 77,84 ****
+*** 77,83 ****
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
 ! Escolha uma opção: Saldo disponível: 20
-! Saldo contabilístico: 140
+  Saldo contabilístico: 140
   Menu Principal
   1 - Abrir
-  2 - Guardar
---- 87,94 ----
+--- 87,93 ----
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
 ! Escolha uma opção: Saldo disponível: 2
-! Saldo contabilístico: 11
+  Saldo contabilístico: 140
   Menu Principal
   1 - Abrir
-  2 - Guardar

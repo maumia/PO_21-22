@@ -1,40 +1,36 @@
 *** tests/A-12-10-M-ok.out	2021-11-12 10:32:47.530213000 +0000
---- tests/A-12-10-M-ok.outhyp	2021-11-19 19:03:02.028200946 +0000
+--- tests/A-12-10-M-ok.outhyp	2021-11-19 19:10:10.208972275 +0000
 ***************
-*** 83,90 ****
+*** 83,89 ****
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
 ! Escolha uma opção: Saldo disponível: -50
-! Saldo contabilístico: 0
+  Saldo contabilístico: 0
   Menu Principal
   1 - Abrir
-  2 - Guardar
---- 83,90 ----
+--- 83,89 ----
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
 ! Escolha uma opção: Saldo disponível: -470
-! Saldo contabilístico: -465
+  Saldo contabilístico: 0
   Menu Principal
   1 - Abrir
-  2 - Guardar
 ***************
-*** 121,128 ****
+*** 121,127 ****
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
 ! Escolha uma opção: Saldo disponível: -150
-! Saldo contabilístico: -100
+  Saldo contabilístico: -100
   Menu Principal
   1 - Abrir
-  2 - Guardar
---- 121,128 ----
+--- 121,127 ----
   8 - Menu de Consultas
   9 - Ver Saldo Global
   0 - Sair
 ! Escolha uma opção: Saldo disponível: -570
-! Saldo contabilístico: -565
+  Saldo contabilístico: -100
   Menu Principal
   1 - Abrir
-  2 - Guardar
