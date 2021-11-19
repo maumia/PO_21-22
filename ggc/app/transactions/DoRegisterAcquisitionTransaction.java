@@ -61,6 +61,10 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
           }
           _receiver.registerAggregateAcquisition(_partnerId, _productId, _price, _amount, ids, amounts, Double.valueOf(_alpha));
 
+          
+
+
+
         } 
           
       }

@@ -275,7 +275,7 @@ public class Warehouse implements Serializable {
    int i = 0;
    Recipe _recipe = new Recipe();
 
-    while(i <= components.length) {
+    while(i < components.length) {
       Component component = new Component(components[i], quantities[i]);
       _recipe.addComponent(component);
       i++;
