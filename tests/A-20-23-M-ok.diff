@@ -1,5 +1,5 @@
 *** tests/A-20-23-M-ok.out	2021-11-12 08:49:35.065720000 +0000
---- tests/A-20-23-M-ok.outhyp	2021-11-19 20:28:38.380301955 +0000
+--- tests/A-20-23-M-ok.outhyp	2021-11-19 20:47:31.704188883 +0000
 ***************
 *** 41,47 ****
   4 - Registar compra
@@ -98,7 +98,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|3|M1|SAL|1|100|90|43
+! Escolha uma opção: Identificador da transacção: VENDA|3|M1|SAL|1|100|100|23
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -115,7 +115,7 @@
   5 - Mostrar compras com parceiro
   6 - Mostrar vendas (e desagregações) com parceiro
   0 - Sair
-! Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|4000|0|0|0
+! Escolha uma opção: M1|Rohit Figueiredo|New Delhi, India|NORMAL|4100|0|0|0
   M2|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
   S1|Toshiba|Tokyo, Japan|NORMAL|0|0|0|0
   Gestão de Parceiros
