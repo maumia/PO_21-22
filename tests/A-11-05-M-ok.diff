@@ -1,35 +1,5 @@
 *** tests/A-11-05-M-ok.out	2021-10-21 22:33:00.626383000 +0100
---- tests/A-11-05-M-ok.outhyp	2021-11-18 22:03:23.698538659 +0000
-***************
-*** 16,28 ****
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Registar receita? Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-  Escolha uma opção: Identificador da transacção: COMPRA|0|M1|PAPEL|2000|24000|0
-  Gestão de Transacções
-  1 - Visualizar
---- 16,29 ----
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-! Escolha uma opção: Identificador do parceiro: Identificador do produto: Preço: Quantidade: Gestão de Transacções
-  1 - Visualizar
-  2 - Registar desagregação
-  3 - Registar venda
-  4 - Registar compra
-  5 - Receber pagamento de venda
-  0 - Sair
-+ Escolha uma opção: Número inválido!
-  Escolha uma opção: Identificador da transacção: COMPRA|0|M1|PAPEL|2000|24000|0
-  Gestão de Transacções
-  1 - Visualizar
+--- tests/A-11-05-M-ok.outhyp	2021-11-19 13:59:02.377538568 +0000
 ***************
 *** 48,54 ****
   3 - Visualizar lotes fornecidos por parceiro
@@ -39,7 +9,7 @@
   PAPEL|12|2000
   ROLHA|20|500
   VIDRO|30|500
---- 49,55 ----
+--- 48,54 ----
   3 - Visualizar lotes fornecidos por parceiro
   4 - Visualizar lotes de um dado produto
   0 - Sair
