@@ -249,7 +249,7 @@ public class Warehouse implements Serializable {
       if (var.getPrice() < p.getPrice())
               var.setPrice(p.getPrice());
     }
-    else if(checkProduct(p.getProductId()) == false){
+    else{
       addSimpleProduct(p);
       p.addBatch(b);
     }
@@ -274,14 +274,26 @@ public class Warehouse implements Serializable {
 
     Product p = new AggregateProduct(productId, partnerId, price, aggravation, _recipe);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
+    
+    if(checkProduct(p.getProductId()) == true){
+      Product var = getProduct(p.getProductId());
+      var.addBatch(b);
+      if (var.getPrice() < p.getPrice())
+              var.setPrice(p.getPrice());
+    }
+    else{
+      addAggregateProduct(p);
+      p.addBatch(b);
+    }
     _products.add(p);
     p.addBatch(b);
+
     Acquisition acquisition = new Acquisition(_transactionId, _date, price, amount, getProduct(productId), getPartner(partnerId));
     _transactions.add(acquisition);
     _acquisitions.add(acquisition);
     _transactionId++;
-    _availableBalance += price;
-    _contabilisticBalance += price;
+    _availableBalance -= price;
+    _contabilisticBalance -= price;
   }
 /*
   protected void registerBatchAcquisition(String productId, double price, int stock, String partnerId) {
@@ -300,7 +312,7 @@ public class Warehouse implements Serializable {
     
   }
   */
-  
+
   protected double getAvailableBalance() {
     return _availableBalance;
   }
