@@ -9,7 +9,7 @@ public class SaleByCredit extends Sale {
     
     SaleByCredit(int id, Date paymentDate, Double baseValue, int quantity, Product product, Partner partner, Date deadline) {
         super(id, paymentDate, baseValue, quantity, product, partner);
-        _valueToPay = baseValue* 0.9;
+        _valueToPay = baseValue;
         _deadline = deadline;
     }
 
@@ -85,6 +85,6 @@ public class SaleByCredit extends Sale {
 
     @Override
     public String toString(){
-        return super.toString() + "|" + getValueToPay() + "|" + getDeadline().getCurrentDate() + "|" + getPaymentDate().getCurrentDate();
+        return super.toString() + "|" + getValueToPay() + "|" + getDeadline().getCurrentDate(); //+ "|" + getPaymentDate().getCurrentDate();
     }
 }
