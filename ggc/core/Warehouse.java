@@ -327,6 +327,16 @@ public class Warehouse implements Serializable {
     _contabilisticBalance += baseValue*quantity;
   }
 
+  protected void registerBreakdown(String partnerId, String productId, int amount) throws UnknownPartnerKeyException,UnknownProductKeyException{
+    Product product = getProduct(productId);
+    Date date = new Date();
+    Double baseValue = product.getLowPrice(); 
+    product.setStock(product.getStock() - amount);
+    //Recipe _recipe = product.getRecipe();
+
+
+
+  }
   protected int getStockProduct(String id) throws  UnknownProductKeyException {
     Product product = getProduct(id);
     return product.getStock();
