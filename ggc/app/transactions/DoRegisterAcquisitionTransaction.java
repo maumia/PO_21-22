@@ -29,7 +29,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
   }
 
   @Override
-  public final void execute() throws CommandException,UnknownProductKeyException,UnknownPartnerKeyException{
+  public final void execute() throws CommandException{
     _form.parse();
     Form _fform = new Form();
     String _partnerId = _form.stringField("_partnerId");
@@ -67,11 +67,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
           }
           _receiver.registerAggregateAcquisition(_partnerId, _productId, _price, _amount, ids, amounts, Double.valueOf(_alpha));
 
-          
-
-
-        
-      } 
+        } 
           
       }
       else
