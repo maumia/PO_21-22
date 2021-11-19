@@ -248,12 +248,13 @@ public class Warehouse implements Serializable {
         var.addBatch(b);
         if (var.getPrice() < p.getPrice())
                 var.setPrice(p.getPrice());
+        }
       }
       else{
         addSimpleProduct(p);
         p.addBatch(b);
       }
-    }
+    
     Acquisition acquisition = new Acquisition(_transactionId, _date, price, amount, getProduct(productId), getPartner(partnerId));
     getPartner(partnerId).addPartnerShoppingValue(price * amount);
     _transactions.add(acquisition);
