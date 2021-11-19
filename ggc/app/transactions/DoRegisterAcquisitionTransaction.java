@@ -57,8 +57,8 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
             _pForm.addStringField("_productId", Message.requestProductKey());
             _pForm.addIntegerField("_amount", Message.requestPrice());
             _pForm.parse();
-            ids[i] = _pForm.stringField("_productId");
-            amounts[i] = _pForm.integerField("_amount");
+            ids[i-1] = _pForm.stringField("_productId");
+            amounts[i-1] = _pForm.integerField("_amount");
             i++;
           }
           _receiver.registerAggregateAcquisition(_partnerId, _productId, _price, _amount, ids, amounts, Double.valueOf(_alpha));
