@@ -319,7 +319,7 @@ public class Warehouse implements Serializable {
     date.setDays(deadline);
     date.addDate(getCurrentDate());
     
-    SaleByCredit saleByCredit = new SaleByCredit(_transactionId, new Date(), baseValue, quantity, product, getPartner(partnerId), date);  
+    SaleByCredit saleByCredit = new SaleByCredit(_transactionId, 0, baseValue, quantity, product, getPartner(partnerId), deadline);  
     
     product.setStock(product.getStock() - quantity);
     _transactions.add(saleByCredit);
@@ -352,7 +352,7 @@ public class Warehouse implements Serializable {
   }
 
   protected int period(SaleByCredit saleByCredit) {
-    int deadline = saleByCredit.getDeadline().getCurrentDate();
+    int deadline = saleByCredit.getDeadline();
     Product product = saleByCredit.getProduct();
 
     if(deadline - getCurrentDate() >= product.getN()) {

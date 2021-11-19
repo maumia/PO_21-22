@@ -2,12 +2,12 @@ package ggc.core;
 
 public class SaleByCredit extends Sale {
 
-    private Date _deadline;
+    private int _deadline;
     private double _valueToPay;
     private double _discount;
     private double _fine;
     
-    SaleByCredit(int id, Date paymentDate, Double baseValue, int quantity, Product product, Partner partner, Date deadline) {
+    SaleByCredit(int id, int paymentDate, Double baseValue, int quantity, Product product, Partner partner, int deadline) {
         super(id, paymentDate, baseValue, quantity, product, partner);
         _valueToPay = baseValue*quantity;
         _deadline = deadline;
@@ -17,7 +17,7 @@ public class SaleByCredit extends Sale {
         return (int)_valueToPay;
     }
 
-    Date getDeadline() {
+    int getDeadline() {
         return _deadline;
     }
 
@@ -85,6 +85,6 @@ public class SaleByCredit extends Sale {
 
     @Override
     public String toString(){
-        return super.toString() + "|" + Math.round(getValueToPay()) + "|" + getDeadline().getCurrentDate(); //+ "|" + getPaymentDate().getCurrentDate();
+        return super.toString() + "|" + Math.round(getValueToPay()) + "|" + getDeadline(); //+ "|" + getPaymentDate().getCurrentDate();
     }
 }
