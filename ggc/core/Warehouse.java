@@ -2,6 +2,8 @@ package ggc.core;
 
 import java.io.Serializable;
 import java.io.IOException;
+
+import ggc.app.exception.UnknownTransactionKeyException;
 import ggc.core.exception.BadEntryException;
 import java.util.*;
 
@@ -328,12 +330,12 @@ public class Warehouse implements Serializable {
     return product.getStock();
   }
 
-  protected SaleByCredit getSaleByCredit(int transactionId) {
+  protected SaleByCredit getSaleByCredit(int transactionId) throws UnknownTransactionKeyException {
     for(SaleByCredit saleByCredit: _salesByCredict){
       if(transactionId == saleByCredit.getTransactionID())
         return saleByCredit;
     }
-    return null;
+      throw new UnknownTransactionKeyException(transactionId);
   }
 
   protected int period(SaleByCredit saleByCredit) {
@@ -353,7 +355,7 @@ public class Warehouse implements Serializable {
       return 4;
   }
 
-  protected void setValueToPay(int transactionId) {
+  protected void setValueToPay(int transactionId) throws UnknownTransactionKeyException {
     SaleByCredit saleByCredit = getSaleByCredit(transactionId);
     int period = period(saleByCredit);
     saleByCredit.setDiscountFine(period);
@@ -363,7 +365,7 @@ public class Warehouse implements Serializable {
     saleByCredit.setValueToPay(baseValue - (baseValue * discount) + (baseValue * fine));
   }
    
-  protected void paySale(int transactionId) {
+  protected void paySale(int transactionId) throws UnknownTransactionKeyException {
     setValueToPay(transactionId);
     SaleByCredit saleByCredit = getSaleByCredit(transactionId);
     Partner partner = saleByCredit.getPartner();

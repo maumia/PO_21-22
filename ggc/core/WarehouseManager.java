@@ -6,6 +6,7 @@ import ggc.core.exception.BadEntryException;
 import ggc.core.exception.ImportFileException;
 import ggc.core.exception.UnavailableFileException;
 import ggc.core.exception.MissingFileAssociationException;
+import ggc.app.exception.UnknownTransactionKeyException;
 
 /** Façade for access. */
 public class WarehouseManager {
@@ -178,7 +179,7 @@ public class WarehouseManager {
     _warehouse.registerSimpleByCredit(partnerId, deadline, productId, quantity);
   }
 
-  public void paySale(int transactionId) {
+  public void paySale(int transactionId) throws UnknownTransactionKeyException {
     _warehouse.paySale(transactionId);
   }
 
