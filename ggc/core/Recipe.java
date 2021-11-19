@@ -12,7 +12,7 @@ public class Recipe {
 
 	@Override
     public String toString() {
-        String recipe = null;
+        String recipe = "";
         for (Component c : components)
             recipe += c.getId() + ":" + c.getQuantity() + "#";
         recipe = recipe.substring(0, recipe.length() - 1);
