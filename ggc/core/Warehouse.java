@@ -386,7 +386,7 @@ public class Warehouse implements Serializable {
     return description;
   }
 
-  protected String showTransaction(int transactionId){
+  protected String showTransaction(int transactionId) throws UnknownTransactionKeyException{
     for(Acquisition acquisition: _acquisitions){
       if(acquisition.getTransactionID() == transactionId){
         return acquisition.toString();
@@ -397,7 +397,7 @@ public class Warehouse implements Serializable {
       if(saleByCredit.getTransactionID() == transactionId){
         return saleByCredit.toString();
       }
-    return null;
+    throw new UnknownTransactionKeyException(transactionId);
   }
 
   protected Collection<String> ShowPaidTransactions(String id){

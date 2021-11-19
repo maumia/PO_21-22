@@ -9,6 +9,15 @@ public class Breakdown extends Transaction{
         super(id, paymentDate, baseValue, quantity, product, partner);
         _components = components;
     }
+    public Collection compToString(Recipe recipe){
+        Collection<String> _description = new ArrayList<String>();
+        for(Component component : _components){
+           _description.add(component.toString());
+        }
+        return _description;
+
+    }
+    
     @Override
     public String toString(){
         return "DESAGREGAÇÃO|" + super.toString();

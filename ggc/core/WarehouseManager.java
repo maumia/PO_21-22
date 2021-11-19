@@ -189,7 +189,7 @@ public class WarehouseManager {
     return _warehouse.ShowSalesByPartner(id);
   }
 
-  public String showTransaction(int transactionId) {
+  public String showTransaction(int transactionId) throws UnknownTransactionKeyException{
     return _warehouse.showTransaction(transactionId);
   }
 }
