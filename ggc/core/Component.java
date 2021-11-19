@@ -23,4 +23,8 @@ public class Component implements Serializable {
     int getQuantity() {
         return _quantity;
     }
+    @Override
+    public String toString(){
+        return _id + ":"+ _quantity;
+    }
 }
