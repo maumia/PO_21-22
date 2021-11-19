@@ -1,7 +1,7 @@
 *** tests/A-18-03-M-ok.out	2021-11-05 08:51:31.334180000 +0000
---- tests/A-18-03-M-ok.outhyp	2021-11-19 18:07:47.900728351 +0000
+--- tests/A-18-03-M-ok.outhyp	2021-11-19 18:24:34.276966714 +0000
 ***************
-*** 16,73 ****
+*** 16,64 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
@@ -47,21 +47,11 @@
 ! 4 - Activa/desactivar notificações de um produto
 ! 5 - Mostrar compras com parceiro
 ! 6 - Mostrar vendas (e desagregações) com parceiro
-! 0 - Sair
-! Escolha uma opção: Menu Principal
-! 1 - Abrir
-! 2 - Guardar
-! 3 - Mostrar Data
-! 4 - Avançar Data
-! 5 - Gestão de Produtos
-! 6 - Gestão de Parceiros
-! 7 - Gestão de Transacções
-! 8 - Menu de Consultas
-! 9 - Ver Saldo Global
-! 0 - Sair
-! Escolha uma opção: 
-\ No newline at end of file
---- 16,28 ----
+  0 - Sair
+  Escolha uma opção: Menu Principal
+  1 - Abrir
+  2 - Guardar
+--- 16,64 ----
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
@@ -74,5 +64,40 @@
   0 - Sair
 ! Escolha uma opção: Número inválido!
 ! Escolha uma opção: Número inválido!
-! Escolha uma opção: Identificador da transacção: 
-\ No newline at end of file
+! Escolha uma opção: Identificador da transacção: Receber pagamento de venda: Operação inválida: A transacção '0' não existe.
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+! 0 - Sair
+! Escolha uma opção: Número inválido!
+! Escolha uma opção: Opção inválida!
+! Gestão de Transacções
+! 1 - Visualizar
+! 2 - Registar desagregação
+! 3 - Registar venda
+! 4 - Registar compra
+! 5 - Receber pagamento de venda
+  0 - Sair
++ Escolha uma opção: Número inválido!
+  Escolha uma opção: Menu Principal
+  1 - Abrir
+  2 - Guardar

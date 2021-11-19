@@ -1,5 +1,5 @@
 *** tests/A-15-11-M-ok.out	2021-11-12 09:59:00.588995000 +0000
---- tests/A-15-11-M-ok.outhyp	2021-11-19 18:07:46.476749089 +0000
+--- tests/A-15-11-M-ok.outhyp	2021-11-19 18:24:32.820990359 +0000
 ***************
 *** 16,106 ****
   4 - Registar compra
@@ -95,7 +95,7 @@
   2 - Registar desagregação
 --- 16,21 ----
 ***************
-*** 108,145 ****
+*** 108,129 ****
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
@@ -115,31 +115,16 @@
 ! 5 - Receber pagamento de venda
 ! 0 - Sair
 ! Escolha uma opção: Identificador da transacção: DESAGREGAÇÃO|0|M1|GARRAFA|5|35|35|0|ROLHA:20:40#SAL:25:200#VIDRO:25:125
-! Gestão de Transacções
-! 1 - Visualizar
-! 2 - Registar desagregação
-! 3 - Registar venda
-! 4 - Registar compra
-! 5 - Receber pagamento de venda
-! 0 - Sair
-! Escolha uma opção: Menu Principal
-! 1 - Abrir
-! 2 - Guardar
-! 3 - Mostrar Data
-! 4 - Avançar Data
-! 5 - Gestão de Produtos
-! 6 - Gestão de Parceiros
-! 7 - Gestão de Transacções
-! 8 - Menu de Consultas
-! 9 - Ver Saldo Global
-! 0 - Sair
-! Escolha uma opção: 
-\ No newline at end of file
---- 23,28 ----
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
+--- 23,31 ----
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
 ! Escolha uma opção: Número inválido!
 ! Escolha uma opção: Número inválido!
-! Escolha uma opção: Identificador da transacção: 
-\ No newline at end of file
+! Escolha uma opção: Identificador da transacção: Receber pagamento de venda: Operação inválida: A transacção '1' não existe.
+  Gestão de Transacções
+  1 - Visualizar
+  2 - Registar desagregação
