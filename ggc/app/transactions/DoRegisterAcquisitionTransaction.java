@@ -56,7 +56,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
           for(int i = 0; i < _nComp; i++){
             Form _pForm = new Form();
             _pForm.addStringField("_productId", Message.requestProductKey());
-            _pForm.addIntegerField("_amount", Message.requestPrice());
+            _pForm.addIntegerField("_amount", Message.requestAmount());
             _pForm.parse();
             if(_receiver.checkProduct(_pForm.stringField("_productId"))){
               ids[i] = _pForm.stringField("_productId");
