@@ -270,7 +270,7 @@ public class Warehouse implements Serializable {
         p.addBatch(b);
       }
     
-    Acquisition acquisition = new Acquisition(_transactionId, d, price, amount, getProduct(productId), getPartner(partnerId));
+    Acquisition acquisition = new Acquisition(_transactionId, j, price, amount, getProduct(productId), getPartner(partnerId));
     getPartner(partnerId).addPartnerShoppingValue(price * amount);
     _transactions.add(acquisition);
     _acquisitions.add(acquisition);
