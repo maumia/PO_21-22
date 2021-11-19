@@ -284,8 +284,8 @@ public class Warehouse implements Serializable {
     Product p = new AggregateProduct(productId, partnerId, price, aggravation, _recipe);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
 
-      addAggregateProduct(p);
-      p.addBatch(b);
+    addAggregateProduct(p);
+    p.addBatch(b);
     
 
     Acquisition acquisition = new Acquisition(_transactionId, _date, price, amount, getProduct(productId), getPartner(partnerId));
