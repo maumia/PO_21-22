@@ -1,8 +1,13 @@
 package ggc.core;
 
+import java.io.Serializable;
 import java.util.*;
 
-public class Recipe {
+public class Recipe implements Serializable{
+    /**
+    * Serial number for serialization.
+    */
+    private static final long serialVersionUID = 202109192006L;
 
 	private List<Component> components = new ArrayList<>(); 
 

@@ -3,14 +3,9 @@ package ggc.app.transactions;
 import pt.tecnico.uilib.menus.Command;
 import pt.tecnico.uilib.menus.CommandException;
 import pt.tecnico.uilib.forms.Form;
-import ggc.core.Component;
 import ggc.core.WarehouseManager;
 import ggc.app.exception.UnknownProductKeyException;
 import ggc.app.exception.UnknownPartnerKeyException;
-
-import java.util.ArrayList;
-import java.util.List;
-
 
 
 /**
