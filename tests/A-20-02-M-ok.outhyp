@@ -30,7 +30,7 @@ Escolha uma opção: Identificador do parceiro: Data limite de pagamento: Identi
 4 - Registar compra
 5 - Receber pagamento de venda
 0 - Sair
-Escolha uma opção: Identificador da transacção: VENDA|0|M1|GARRAFA|1|0|0|ggc.core.Date@33c7353a|0
+Escolha uma opção: Identificador da transacção: VENDA|0|M1|GARRAFA|1|0|0|2|0
 Gestão de Transacções
 1 - Visualizar
 2 - Registar desagregação
@@ -52,7 +52,7 @@ Escolha uma opção: Identificador da transacção: Gestão de Transacções
 4 - Registar compra
 5 - Receber pagamento de venda
 0 - Sair
-Escolha uma opção: Identificador da transacção: VENDA|0|M1|GARRAFA|1|0|0|ggc.core.Date@33c7353a|0
+Escolha uma opção: Identificador da transacção: VENDA|0|M1|GARRAFA|1|0|0|2|0
 Gestão de Transacções
 1 - Visualizar
 2 - Registar desagregação
@@ -60,7 +60,7 @@ Gestão de Transacções
 4 - Registar compra
 5 - Receber pagamento de venda
 0 - Sair
-Escolha uma opção: Identificador da transacção: VENDA|1|M2|GARRAFA|1|0|0|ggc.core.Date@681a9515|0
+Escolha uma opção: Identificador da transacção: VENDA|1|M2|GARRAFA|1|0|0|6|0
 Gestão de Transacções
 1 - Visualizar
 2 - Registar desagregação

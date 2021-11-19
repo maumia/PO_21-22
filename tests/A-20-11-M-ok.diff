@@ -1,5 +1,5 @@
 *** tests/A-20-11-M-ok.out	2021-11-11 14:27:14.256583000 +0000
---- tests/A-20-11-M-ok.outhyp	2021-11-19 17:02:35.406814803 +0000
+--- tests/A-20-11-M-ok.outhyp	2021-11-19 17:21:30.675865416 +0000
 ***************
 *** 63,70 ****
   5 - Mostrar compras com parceiro
@@ -32,7 +32,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|2|M1|SAL|1|0|0|ggc.core.Date@776ec8df|0
+! Escolha uma opção: Identificador da transacção: VENDA|2|M1|SAL|1|0|0|2|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -49,7 +49,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|3|M2|SAL|1|0|0|ggc.core.Date@4eec7777|0
+! Escolha uma opção: Identificador da transacção: VENDA|3|M2|SAL|1|0|0|8|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação

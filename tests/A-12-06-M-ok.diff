@@ -1,5 +1,5 @@
 *** tests/A-12-06-M-ok.out	2021-11-12 10:10:35.546290000 +0000
---- tests/A-12-06-M-ok.outhyp	2021-11-19 17:02:27.798941034 +0000
+--- tests/A-12-06-M-ok.outhyp	2021-11-19 17:21:22.136008369 +0000
 ***************
 *** 69,76 ****
   8 - Menu de Consultas
@@ -51,7 +51,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|1|M2|GARRAFA|10|0|0|ggc.core.Date@31befd9f|0
+! Escolha uma opção: Identificador da transacção: VENDA|1|M2|GARRAFA|10|0|0|2|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação
@@ -68,7 +68,7 @@
   4 - Registar compra
   5 - Receber pagamento de venda
   0 - Sair
-! Escolha uma opção: Identificador da transacção: VENDA|0|M1|ROLHA|10|0|0|ggc.core.Date@1c20c684|0
+! Escolha uma opção: Identificador da transacção: VENDA|0|M1|ROLHA|10|0|0|1|0
   Gestão de Transacções
   1 - Visualizar
   2 - Registar desagregação

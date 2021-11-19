@@ -1,5 +1,5 @@
 *** tests/A-14-05-M-ok.out	2021-11-01 23:11:20.620093000 +0000
---- tests/A-14-05-M-ok.outhyp	2021-11-19 17:02:29.374914886 +0000
+--- tests/A-14-05-M-ok.outhyp	2021-11-19 17:21:24.115975226 +0000
 ***************
 *** 109,116 ****
   1 - Produtos com Preço Abaixo de Limite
@@ -15,10 +15,10 @@
   2 - Facturas pagas por parceiro
   0 - Sair
 ! Escolha uma opção: Identificador do parceiro: COMPRA|3|M1|SAL|4|20|2
-! VENDA|0|M1|SAL|2|0|0|ggc.core.Date@2f2c9b19|0
-! VENDA|1|M1|ROLHA|3|0|0|ggc.core.Date@31befd9f|0
-! VENDA|2|M1|HIDROGENIO|4|0|0|ggc.core.Date@1c20c684|0
-! VENDA|4|M1|SAL|5|0|0|ggc.core.Date@1fb3ebeb|0
+! VENDA|0|M1|SAL|2|0|0|3|0
+! VENDA|1|M1|ROLHA|3|0|0|3|0
+! VENDA|2|M1|HIDROGENIO|4|0|0|3|0
+! VENDA|4|M1|SAL|5|0|0|3|0
   Consultas
   1 - Produtos com Preço Abaixo de Limite
   2 - Facturas pagas por parceiro
