@@ -244,11 +244,18 @@ public class Warehouse implements Serializable {
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
       if(checkProduct(p.getProductId()) == true){
         if((getProduct(productId) instanceof SimpleProduct) == true){
-        Product var = getProduct(p.getProductId());
-        var.addBatch(b);
-        if (var.getPrice() < p.getPrice())
-                var.setPrice(p.getPrice());
+          Product var = getProduct(p.getProductId());
+          var.addBatch(b);
+          if (var.getPrice() < p.getPrice())
+                  var.setPrice(p.getPrice());
         }
+        else{
+          Product var = getProduct(p.getProductId());
+          var.addBatch(b);
+          if (var.getPrice() < p.getPrice())
+                  var.setPrice(p.getPrice());
+        }
+        
       }
       else{
         addSimpleProduct(p);
