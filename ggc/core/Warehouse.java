@@ -108,7 +108,7 @@ public class Warehouse implements Serializable {
     return false;
   }
  
-  protected Product getProduct(String id){
+  public Product getProduct(String id){
     for(Product product: _products){
       if(id.equals(product.getProductId()))
         return product;
@@ -242,17 +242,18 @@ public class Warehouse implements Serializable {
   protected void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount) {
     Product p = new SimpleProduct(productId, partnerId, price);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
-
-    if(checkProduct(p.getProductId()) == true){
-      Product var = getProduct(p.getProductId());
-      var.addBatch(b);
-      if (var.getPrice() < p.getPrice())
-              var.setPrice(p.getPrice());
-    }
-    else{
-      addSimpleProduct(p);
-      p.addBatch(b);
-    }
+    if(getProduct(productId) instanceof SimpleProduct){
+      if(checkProduct(p.getProductId()) == true){
+        Product var = getProduct(p.getProductId());
+        var.addBatch(b);
+        if (var.getPrice() < p.getPrice())
+                var.setPrice(p.getPrice());
+      }
+      else{
+        addSimpleProduct(p);
+        p.addBatch(b);
+      }
+  }
     Acquisition acquisition = new Acquisition(_transactionId, _date, price, amount, getProduct(productId), getPartner(partnerId));
     getPartner(partnerId).addPartnerShoppingValue(price * amount);
     _transactions.add(acquisition);

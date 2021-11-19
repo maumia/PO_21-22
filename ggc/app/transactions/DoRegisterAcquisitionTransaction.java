@@ -41,6 +41,7 @@ class DoRegisterAcquisitionTransaction extends Command<WarehouseManager> {
           _display.display();
       }
       else
+        
         _receiver.registerSimpleAcquisition(_partnerId, _productId, _price, _amount);
     }
       
