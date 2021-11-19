@@ -3,6 +3,8 @@ package ggc.core;
 import java.io.Serializable;
 import java.io.IOException;
 
+import ggc.app.exception.UnknownPartnerKeyException;
+import ggc.app.exception.UnknownProductKeyException;
 import ggc.app.exception.UnknownTransactionKeyException;
 import ggc.core.exception.BadEntryException;
 import java.util.*;
@@ -38,7 +40,7 @@ public class Warehouse implements Serializable {
     _salesByCredict = new ArrayList<>();
   }
 
-  void importFile(String filename) throws IOException, BadEntryException {
+  void importFile(String filename) throws IOException, BadEntryException, UnknownProductKeyException, UnknownPartnerKeyException   {
     Parser parser = new Parser(this);
     parser.parseFile(filename);
   }
@@ -56,12 +58,12 @@ public class Warehouse implements Serializable {
     _partners.add(partner);
   }
 
-  protected Partner getPartner(String id){
+  protected Partner getPartner(String id) throws UnknownPartnerKeyException{
     for(Partner partner: _partners){
       if(id.toUpperCase().equals(partner.getPartnerId().toUpperCase()))
         return partner;
     }
-    return null;
+      throw  new UnknownPartnerKeyException(id);
   }
 
   protected String showPartner(String id) {
@@ -110,12 +112,12 @@ public class Warehouse implements Serializable {
     return false;
   }
  
-  public Product getProduct(String id){
+  public Product getProduct(String id) throws UnknownProductKeyException{
     for(Product product: _products){
       if(id.equals(product.getProductId()))
         return product;
     }
-    return null;
+    throw new UnknownProductKeyException(id);
   }
 
   public static Comparator<Product> productComparator = new Comparator<Product>() {
@@ -241,7 +243,7 @@ public class Warehouse implements Serializable {
     return description;
   }
 
-  protected void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount) {
+  protected void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount) throws UnknownPartnerKeyException, UnknownProductKeyException{
     Product p = new SimpleProduct(productId, partnerId, price);
     Batch b = new Batch(p, price, amount, getPartner(partnerId));
       if(checkProduct(p.getProductId()) == true){
@@ -276,7 +278,7 @@ public class Warehouse implements Serializable {
     _contabilisticBalance -= price * amount;
   }
   
-  protected void registerAggregateAcquisition(String partnerId, String productId, Double price, int amount, String[] components, int[] quantities, Double aggravation) {
+  protected void registerAggregateAcquisition(String partnerId, String productId, Double price, int amount, String[] components, int[] quantities, Double aggravation) throws UnknownPartnerKeyException, UnknownProductKeyException{
    int i = 0;
    Recipe _recipe = new Recipe();
 
@@ -309,7 +311,7 @@ public class Warehouse implements Serializable {
     return _contabilisticBalance;
   }
 
-  protected void registerSimpleByCredit(String partnerId, int deadline, String productId, int quantity){ 
+  protected void registerSimpleByCredit(String partnerId, int deadline, String productId, int quantity)throws UnknownPartnerKeyException,  UnknownProductKeyException{ 
     Product product = getProduct(productId);
     Double baseValue = product.getLowPrice();      
     Date date = new Date();
@@ -325,7 +327,7 @@ public class Warehouse implements Serializable {
     _contabilisticBalance += baseValue;
   }
 
-  protected int getStockProduct(String id) {
+  protected int getStockProduct(String id) throws  UnknownProductKeyException {
     Product product = getProduct(id);
     return product.getStock();
   }

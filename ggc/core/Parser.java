@@ -3,6 +3,9 @@ package ggc.core;
 import java.io.IOException;
 import java.io.FileReader;
 import java.io.BufferedReader;
+
+import ggc.app.exception.UnknownPartnerKeyException;
+import ggc.app.exception.UnknownProductKeyException;
 import ggc.core.exception.BadEntryException;
 import java.util.*;
 
@@ -14,7 +17,7 @@ public class Parser {
     _store = w;
   }
 
-  void parseFile(String filename) throws IOException, BadEntryException {
+  void parseFile(String filename) throws IOException, BadEntryException, UnknownProductKeyException, UnknownPartnerKeyException   {
     try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
       String line;
 
@@ -23,7 +26,7 @@ public class Parser {
     }
   }
 
-  private void parseLine(String line) throws BadEntryException {
+  private void parseLine(String line) throws BadEntryException,UnknownProductKeyException, UnknownPartnerKeyException  {
     String[] components = line.split("\\|");
 
     switch (components[0]) {
@@ -48,7 +51,7 @@ public class Parser {
     _store.addPartner(partner);
   }
 
-  private void parseSimpleProduct(String[] components, String line) throws BadEntryException {
+  private void parseSimpleProduct(String[] components, String line) throws BadEntryException, UnknownProductKeyException, UnknownPartnerKeyException {
     if (components.length != 5)
       throw new BadEntryException("Invalid number of fields (5) in simple batch description: " + line);
     
@@ -69,7 +72,7 @@ public class Parser {
     _store.addBatch(product2, batch);    
   }
 
-  private void parseAggregateProduct(String[] components, String line) throws BadEntryException {
+  private void parseAggregateProduct(String[] components, String line) throws BadEntryException,UnknownProductKeyException, UnknownPartnerKeyException  {
     if (components.length != 7)
       throw new BadEntryException("Invalid number of fields (7) in aggregate batch description: " + line);
     

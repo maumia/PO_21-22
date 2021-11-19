@@ -7,6 +7,8 @@ import ggc.core.exception.ImportFileException;
 import ggc.core.exception.UnavailableFileException;
 import ggc.core.exception.MissingFileAssociationException;
 import ggc.app.exception.UnknownTransactionKeyException;
+import ggc.app.exception.UnknownProductKeyException;
+import ggc.app.exception.UnknownPartnerKeyException;
 
 /** Façade for access. */
 public class WarehouseManager {
@@ -66,7 +68,7 @@ public class WarehouseManager {
    * @param textfile
    * @throws ImportFileException
    */
-  public void importFile(String textfile) throws ImportFileException {
+  public void importFile(String textfile) throws ImportFileException, UnknownProductKeyException, UnknownPartnerKeyException {
     try {
       _warehouse.importFile(textfile);
     } catch (IOException | BadEntryException e) {
@@ -90,7 +92,7 @@ public class WarehouseManager {
     _warehouse.addSimpleProduct(product);
   }
 
-  public Product getProduct(String id) {
+  public Product getProduct(String id) throws UnknownProductKeyException{
     return _warehouse.getProduct(id);
   }
 
@@ -142,11 +144,11 @@ public class WarehouseManager {
     _warehouse.addTransaction(transaction);
   }
 
-  public void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount){
+  public void registerSimpleAcquisition(String partnerId, String productId, Double price, int amount) throws UnknownProductKeyException, UnknownPartnerKeyException  {
     _warehouse.registerSimpleAcquisition(partnerId, productId, price, amount);
   }
 
-  public void registerAggregateAcquisition(String partnerId, String productId, Double price, int amount, String[] components, int[] quantities, Double aggravation) {
+  public void registerAggregateAcquisition(String partnerId, String productId, Double price, int amount, String[] components, int[] quantities, Double aggravation) throws UnknownProductKeyException, UnknownPartnerKeyException {
     _warehouse.registerAggregateAcquisition(partnerId, productId, price, amount, components, quantities, aggravation);
   }
   /*
@@ -171,11 +173,11 @@ public class WarehouseManager {
     return _warehouse.ShowAcquisitionsByPartner(id);
   }
 
-  public int getProductStock(String id) {
+  public int getProductStock(String id) throws UnknownProductKeyException, UnknownPartnerKeyException {
     return _warehouse.getStockProduct(id);
   }
 
-  public void registerSimpleByCredit(String partnerId, int deadline, String productId, int quantity) {
+  public void registerSimpleByCredit(String partnerId, int deadline, String productId, int quantity) throws UnknownProductKeyException, UnknownPartnerKeyException {
     _warehouse.registerSimpleByCredit(partnerId, deadline, productId, quantity);
   }
 
