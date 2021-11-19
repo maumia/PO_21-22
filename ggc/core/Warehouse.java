@@ -413,10 +413,6 @@ public class Warehouse implements Serializable {
   protected Collection<String> ShowPaidTransactions(String id){
     List<String> description = new ArrayList<>();
    
-    for(Acquisition acquisition: _acquisitions){
-      if(id.equals(acquisition.getPartner().getPartnerId()))
-          description.add(acquisition.toString());
-    }
 
     for(SaleByCredit saleByCredit: _salesByCredict) {
       if(id.equals(saleByCredit.getPartner().getPartnerId()))
